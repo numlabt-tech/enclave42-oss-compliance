@@ -8,7 +8,7 @@ Wheel: `enclave42-0.1.2-py3-none-manylinux_2_39_x86_64.whl`, sha256 `d7fb0e7cb7a
 |---|---|---|---|---|
 | `libbrotlicommon-a91ead09.so.1.1.0` | libbrotli1 | 1.1.0-2build2 | MIT | `ab1458632b3f5508525ec3089ae4d3d19376fedec8e8aa75adcd3c5a8b1862d5` |
 | `libbrotlidec-64d8a501.so.1.1.0` | libbrotli1 | 1.1.0-2build2 | MIT | `f472b061e147f8a2a31ce9c10f37ad725994700a2781d35681282d7c3b7f7aec` |
-| `libcom_err-022943b3.so.2.1` | libcom-err2 | 1.47.0-2.4~exp1ubuntu4.1 | MIT-style (lib/et); package copyright also lists GPL/LGPL for other e2fsprogs libs | `ace50d22c97cb18f3b8462feeef7fdf137188eb590069ae599102366af1985ce` |
+| `libcom_err-022943b3.so.2.1` | libcom-err2 | 1.47.0-2.4~exp1ubuntu4.1 | MIT-style (e2fsprogs `lib/et`, per upstream NOTICE and source headers; `com_right.c` BSD-3-Clause KTH) | `ace50d22c97cb18f3b8462feeef7fdf137188eb590069ae599102366af1985ce` |
 | `libcrypto-6a66c3ba.so.3` | libssl3t64 | 3.0.13-0ubuntu3.15 | Apache-2.0 | `b3403bd30617b58f8f44bdc033e18b4bfab3eeb30f58ba67e37098a636e90119` |
 | `libcurl-eac8f2e9.so.4.8.0` | libcurl4t64 | 8.5.0-2ubuntu10.13 | curl (MIT-style) | `42103fefa54ff89b46a6ec836eb3411abfdd5b76eeb34438913ef1e96d8b4139` |
 | `libffi-00f593fe.so.8.1.4` | libffi8 | 3.4.6-1build1 | MIT | `d3666af0d72f4c121c4d6c605bd597b820b386d75ffb5122f4b4d67ecd91d574` |
@@ -43,12 +43,12 @@ Wheel: `enclave42-0.1.2-py3-none-manylinux_2_39_x86_64.whl`, sha256 `d7fb0e7cb7a
 | `libxslt-a4215f84.so.1.1.39` | libxslt1.1 | 1.1.39-0exp1ubuntu0.24.04.3 | MIT | `f7b6a1c652b96a15f961997ae23c229f8869f4caccdf111e8a9d9a25077eb2c4` |
 | `libzstd-0a2128bc.so.1.5.5` | libzstd1 | 1.5.5+dfsg2-2build1.1 | BSD-3-Clause (choose BSD; dual GPL-2.0) | `1ccfe0bc51c4429a4d01e8a94a26bf4f8b5d8f4caf61760d68e3a22e09d4e542` |
 
-Libraries whose source is provided: see `SOURCE_AVAILABILITY.md`. Binary-to-package check: for 27 of the 35 Ubuntu libraries (all 10 LGPL ones) the code sections are identical to the exact Ubuntu `.deb`; 8 could not be checked because their `.deb` files are no longer in the public Ubuntu pool (libcrypto, libssl, libcurl, libgssapi_krb5, libk5crypto, libkrb5, libkrb5support, libxml2).
+Libraries whose source is provided: see `SOURCE_AVAILABILITY.md`. Binary-to-package check: all 35 Ubuntu libraries (including the 10 LGPL ones) have code sections identical to the exact Ubuntu `.deb`; 8 of the `.deb` files (libcrypto, libssl, libcurl, libgssapi_krb5, libk5crypto, libkrb5, libkrb5support, libxml2) come from Launchpad because those superseded versions left the main Ubuntu pool.
 
 ## B. Executables in the wheel
 
 - `nvattest` 1.2.2 — NVIDIA attestation-sdk (Apache-2.0), commit `9d12801cea8a198ea0f29640dfaf8a4017c841c5`, **modified by Enclave42** (patch `0001-enclave42-bounded-http-and-caches.patch`, sha256 `d472ed6d889fc11643913efb95e4ea35a79d329b41bb951abb1a33108a20a667`); statically includes CLI11 2.6.1 (BSD-3-Clause), nlohmann/json 3.12.0 (MIT), spdlog 1.14.1 (MIT), {fmt} 10.2.1 (MIT).
-- `libnvat.so.1.2.2` — NVIDIA attestation-sdk (Apache-2.0), unmodified; statically includes regorus 0.4.0 and Rust crates (see `rust-libnvat/` in the compliance archive), jwt-cpp 0.7.1 (MIT) with picojson (BSD-2-Clause), nlohmann/json, fmt, spdlog.
+- `libnvat.so.1.2.2` — NVIDIA attestation-sdk (Apache-2.0), unmodified; statically includes regorus 0.4.0 and Rust crates (see [LIBNVAT_STATIC_ATTRIBUTIONS.md](LIBNVAT_STATIC_ATTRIBUTIONS.md); completeness not proven), jwt-cpp 0.7.1 (MIT) with picojson (BSD-2-Clause), nlohmann/json, fmt, spdlog.
 - `dcap_runtime` — Enclave42 Rust binary; its crates are listed in `notices/THIRD_PARTY_NOTICES.txt`.
 
 Machine-readable: `native-libraries.json`, `LGPL-LIBRARIES.json`.

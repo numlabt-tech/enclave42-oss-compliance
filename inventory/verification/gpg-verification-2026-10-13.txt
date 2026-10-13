@@ -1,0 +1,8 @@
+Detached upstream signatures verified with gpgv against the keyring shipped in each Debian source package (debian/upstream/signing-key.asc). Trust in those keys was NOT independently established (no web of trust check).
+gnutls28 3.8.3   Good signature, RSA 462225C3B46F34879FC8496CD605848ED7E69871 (Daiki Ueno)
+libidn2 2.3.7    Good signature, EDDSA A3CC9C870B9D310ABAD4CF2F51722B08FE4745A2 (Simon Josefsson)
+libssh 0.10.6    Good signature, RSA 8DFF53E18F2ABC8D8F3C92237EE0FC4DCC014E3D (Andreas Schneider)
+libtasn1 4.19.0  Good signature, EDDSA A3CC9C870B9D310ABAD4CF2F51722B08FE4745A2 (Simon Josefsson)
+libunistring 1.1 Good signature, RSA 9001B85AF9E1B83DF1BDA942F5BE8B267C6A406D (Bruno Haible)
+nettle 3.9.1     Good signature, RSA 343C2FF0FBEE5EC2EDBEF399F3599FF828C67298 (Niels Moller)
+gmp (dfsg repack), keyutils, rtmpdump: no upstream signature shipped in the Ubuntu source package.

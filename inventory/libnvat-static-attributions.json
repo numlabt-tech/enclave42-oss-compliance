@@ -1,0 +1,2799 @@
+{
+ "title": "Static components inside libnvat.so.1.2.2 (and nvattest) \u2014 attribution register",
+ "libnvat_sha256": "14f5ec4a074f0549dd112a82f8e0d39545472c170f87f9fa8f1a11c1e9241542",
+ "rustc": "1.99.0 (b940084d7 2026-09-28)",
+ "completeness": "NOT_PROVEN \u2014 no original Cargo.lock exists; this is NOT a lockfile and NOT an exhaustive dependency list.",
+ "summary": {
+  "exact_versions": 58,
+  "exact_without_wheel_attribution": 22,
+  "name_only_symbols": 39,
+  "precautionary_declared_unobserved": 12,
+  "cxx_pins": 6
+ },
+ "components": [
+  {
+   "component": "ahash",
+   "ecosystem": "rust-crate",
+   "version": "0.8.12",
+   "version_status": "VERSION_PROVEN",
+   "license_declared": "MIT OR Apache-2.0",
+   "source": "https://crates.io/crates/ahash/0.8.12",
+   "sha256": "5a15f179cd60c4584b8a8c596927aadc462e27f2ca70c04e0071964a73ba7a75",
+   "checksum_verified_against_crates_io": true,
+   "license_files": [
+    {
+     "file": "LICENSE-APACHE",
+     "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+     "path": "notices/libnvat-static/crates/ahash-0.8.12/LICENSE-APACHE"
+    },
+    {
+     "file": "LICENSE-MIT",
+     "sha256": "0444c6991eead6822f7b9102e654448d51624431119546492e8b231db42c48bb",
+     "path": "notices/libnvat-static/crates/ahash-0.8.12/LICENSE-MIT"
+    }
+   ],
+   "evidence": "version string embedded in libnvat panic/source paths",
+   "wheel_0_1_2_notices": "NO_ATTRIBUTION_FOUND"
+  },
+  {
+   "component": "aho-corasick",
+   "ecosystem": "rust-crate",
+   "version": "1.1.5",
+   "version_status": "VERSION_PROVEN",
+   "license_declared": "Unlicense OR MIT",
+   "source": "https://crates.io/crates/aho-corasick/1.1.5",
+   "sha256": "c982642fa9e8606056828ee9a8505737230110bb1099153c79efe865c59d12ba",
+   "checksum_verified_against_crates_io": true,
+   "license_files": [
+    {
+     "file": "COPYING",
+     "sha256": "01c266bced4a434da0051174d6bee16a4c82cf634e2679b6155d40d75012390f",
+     "path": "notices/libnvat-static/crates/aho-corasick-1.1.5/COPYING"
+    },
+    {
+     "file": "LICENSE-MIT",
+     "sha256": "0f96a83840e146e43c0ec96a22ec1f392e0680e6c1226e6f3ba87e0740af850f",
+     "path": "notices/libnvat-static/crates/aho-corasick-1.1.5/LICENSE-MIT"
+    },
+    {
+     "file": "UNLICENSE",
+     "sha256": "7e12e5df4bae12cb21581ba157ced20e1986a0508dd10d0e8a4ab9a4cf94e85c",
+     "path": "notices/libnvat-static/crates/aho-corasick-1.1.5/UNLICENSE"
+    }
+   ],
+   "evidence": "version string embedded in libnvat panic/source paths",
+   "wheel_0_1_2_notices": "NO_ATTRIBUTION_FOUND"
+  },
+  {
+   "component": "anyhow",
+   "ecosystem": "rust-crate",
+   "version": "1.0.104",
+   "version_status": "VERSION_PROVEN",
+   "license_declared": "MIT OR Apache-2.0",
+   "source": "https://crates.io/crates/anyhow/1.0.104",
+   "sha256": "330a5ed07fa54e4702c9d6c4174f74427fc0ef6e214bbd677ae50a5099946470",
+   "checksum_verified_against_crates_io": true,
+   "license_files": [
+    {
+     "file": "LICENSE-APACHE",
+     "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a",
+     "path": "notices/libnvat-static/crates/anyhow-1.0.104/LICENSE-APACHE"
+    },
+    {
+     "file": "LICENSE-MIT",
+     "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3",
+     "path": "notices/libnvat-static/crates/anyhow-1.0.104/LICENSE-MIT"
+    }
+   ],
+   "evidence": "version string embedded in libnvat panic/source paths",
+   "wheel_0_1_2_notices": "ATTRIBUTED_BY_NAME_MATCH"
+  },
+  {
+   "component": "base64",
+   "ecosystem": "rust-crate",
+   "version": "0.22.1",
+   "version_status": "VERSION_PROVEN",
+   "license_declared": "MIT OR Apache-2.0",
+   "source": "https://crates.io/crates/base64/0.22.1",
+   "sha256": "72b3254f16251a8381aa12e40e3c4d2f0199f8c6508fbecb9d91f575e0fbb8c6",
+   "checksum_verified_against_crates_io": true,
+   "license_files": [
+    {
+     "file": "LICENSE-APACHE",
+     "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+     "path": "notices/libnvat-static/crates/base64-0.22.1/LICENSE-APACHE"
+    },
+    {
+     "file": "LICENSE-MIT",
+     "sha256": "0dd882e53de11566d50f8e8e2d5a651bcf3fabee4987d70f306233cf39094ba7",
+     "path": "notices/libnvat-static/crates/base64-0.22.1/LICENSE-MIT"
+    }
+   ],
+   "evidence": "version string embedded in libnvat panic/source paths",
+   "wheel_0_1_2_notices": "ATTRIBUTED_BY_NAME_MATCH"
+  },
+  {
+   "component": "bit-set",
+   "ecosystem": "rust-crate",
+   "version": "0.8.0",
+   "version_status": "VERSION_PROVEN",
+   "license_declared": "Apache-2.0 OR MIT",
+   "source": "https://crates.io/crates/bit-set/0.8.0",
+   "sha256": "08807e080ed7f9d5433fa9b275196cfc35414f66a0c79d864dc51a0d825231a3",
+   "checksum_verified_against_crates_io": true,
+   "license_files": [
+    {
+     "file": "LICENSE-APACHE",
+     "sha256": "8173d5c29b4f956d532781d2b86e4e30f83e6b7878dce18c919451d6ba707c90",
+     "path": "notices/libnvat-static/crates/bit-set-0.8.0/LICENSE-APACHE"
+    },
+    {
+     "file": "LICENSE-MIT",
+     "sha256": "f51ac2c59a222f7476ce507ca879960e2b64ea64bb2786eefdbeb7b0b538d1b7",
+     "path": "notices/libnvat-static/crates/bit-set-0.8.0/LICENSE-MIT"
+    }
+   ],
+   "evidence": "version string embedded in libnvat panic/source paths",
+   "wheel_0_1_2_notices": "NO_ATTRIBUTION_FOUND"
+  },
+  {
+   "component": "bit-vec",
+   "ecosystem": "rust-crate",
+   "version": "0.8.0",
+   "version_status": "VERSION_PROVEN",
+   "license_declared": "Apache-2.0 OR MIT",
+   "source": "https://crates.io/crates/bit-vec/0.8.0",
+   "sha256": "5e764a1d40d510daf35e07be9eb06e75770908c27d411ee6c92109c9840eaaf7",
+   "checksum_verified_against_crates_io": true,
+   "license_files": [
+    {
+     "file": "LICENSE-APACHE",
+     "sha256": "8173d5c29b4f956d532781d2b86e4e30f83e6b7878dce18c919451d6ba707c90",
+     "path": "notices/libnvat-static/crates/bit-vec-0.8.0/LICENSE-APACHE"
+    },
+    {
+     "file": "LICENSE-MIT",
+     "sha256": "f51ac2c59a222f7476ce507ca879960e2b64ea64bb2786eefdbeb7b0b538d1b7",
+     "path": "notices/libnvat-static/crates/bit-vec-0.8.0/LICENSE-MIT"
+    }
+   ],
+   "evidence": "version string embedded in libnvat panic/source paths",
+   "wheel_0_1_2_notices": "NO_ATTRIBUTION_FOUND"
+  },
+  {
+   "component": "chrono",
+   "ecosystem": "rust-crate",
+   "version": "0.4.45",
+   "version_status": "VERSION_PROVEN",
+   "license_declared": "MIT OR Apache-2.0",
+   "source": "https://crates.io/crates/chrono/0.4.45",
+   "sha256": "1aa79e62e7697b8e29b513a68abacf485adcd1fe8284a4316c5ae868e6633327",
+   "checksum_verified_against_crates_io": true,
+   "license_files": [
+    {
+     "file": "LICENSE.txt",
+     "sha256": "946c9835d8034d24404f8cfec5f4654cee5dad17e944afc3d06d742cf2882831",
+     "path": "notices/libnvat-static/crates/chrono-0.4.45/LICENSE.txt"
+    }
+   ],
+   "evidence": "version string embedded in libnvat panic/source paths",
+   "wheel_0_1_2_notices": "ATTRIBUTED_BY_NAME_MATCH"
+  },
+  {
+   "component": "chrono-tz",
+   "ecosystem": "rust-crate",
+   "version": "0.10.4",
+   "version_status": "VERSION_PROVEN",
+   "license_declared": "MIT OR Apache-2.0",
+   "source": "https://crates.io/crates/chrono-tz/0.10.4",
+   "sha256": "a6139a8597ed92cf816dfb33f5dd6cf0bb93a6adc938f11039f371bc5bcd26c3",
+   "checksum_verified_against_crates_io": true,
+   "license_files": [
+    {
+     "file": "LICENSE",
+     "sha256": "4789210f4df8abc03fce1cddd9c2ba517f184840687f2815d741de282c1aa93a",
+     "path": "notices/libnvat-static/crates/chrono-tz-0.10.4/LICENSE"
+    }
+   ],
+   "evidence": "version string embedded in libnvat panic/source paths",
+   "wheel_0_1_2_notices": "NO_ATTRIBUTION_FOUND"
+  },
+  {
+   "component": "data-encoding",
+   "ecosystem": "rust-crate",
+   "version": "2.11.1",
+   "version_status": "VERSION_PROVEN",
+   "license_declared": "MIT",
+   "source": "https://crates.io/crates/data-encoding/2.11.1",
+   "sha256": "4583a4551df46e2792f82ceeac45e850d2e2d5debba0b91f102385cda5b11f06",
+   "checksum_verified_against_crates_io": true,
+   "license_files": [
+    {
+     "file": "LICENSE",
+     "sha256": "b68ad1a3367b825447089e1f8d6829b97f47a89eb78d2f4ebaef4672f5606186",
+     "path": "notices/libnvat-static/crates/data-encoding-2.11.1/LICENSE"
+    }
+   ],
+   "evidence": "version string embedded in libnvat panic/source paths",
+   "wheel_0_1_2_notices": "ATTRIBUTED_BY_NAME_MATCH"
+  },
+  {
+   "component": "email_address",
+   "ecosystem": "rust-crate",
+   "version": "0.2.9",
+   "version_status": "VERSION_PROVEN",
+   "license_declared": "MIT",
+   "source": "https://crates.io/crates/email_address/0.2.9",
+   "sha256": "e079f19b08ca6239f47f8ba8509c11cf3ea30095831f7fed61441475edd8c449",
+   "checksum_verified_against_crates_io": true,
+   "license_files": [
+    {
+     "file": "LICENSE",
+     "sha256": "39712155836e5c10ef1b07037b606e4ad2d633e72205d162fdd7e2290aa54f15",
+     "path": "notices/libnvat-static/crates/email_address-0.2.9/LICENSE"
+    }
+   ],
+   "evidence": "version string embedded in libnvat panic/source paths",
+   "wheel_0_1_2_notices": "NO_ATTRIBUTION_FOUND"
+  },
+  {
+   "component": "fancy-regex",
+   "ecosystem": "rust-crate",
+   "version": "0.14.0",
+   "version_status": "VERSION_PROVEN",
+   "license_declared": "MIT",
+   "source": "https://crates.io/crates/fancy-regex/0.14.0",
+   "sha256": "6e24cb5a94bcae1e5408b0effca5cd7172ea3c5755049c5f3af4cd283a165298",
+   "checksum_verified_against_crates_io": true,
+   "license_files": [
+    {
+     "file": "LICENSE",
+     "sha256": "3bc70e239e91272782006c638fc0452a714d384224f11f0923036b7be07cf9b5",
+     "path": "notices/libnvat-static/crates/fancy-regex-0.14.0/LICENSE"
+    }
+   ],
+   "evidence": "version string embedded in libnvat panic/source paths",
+   "wheel_0_1_2_notices": "NO_ATTRIBUTION_FOUND"
+  },
+  {
+   "component": "fluent-uri",
+   "ecosystem": "rust-crate",
+   "version": "0.3.2",
+   "version_status": "VERSION_PROVEN",
+   "license_declared": "MIT",
+   "source": "https://crates.io/crates/fluent-uri/0.3.2",
+   "sha256": "1918b65d96df47d3591bed19c5cca17e3fa5d0707318e4b5ef2eae01764df7e5",
+   "checksum_verified_against_crates_io": true,
+   "license_files": [
+    {
+     "file": "LICENSE",
+     "sha256": "9fa38f610a00115dd1f612bdd3559e3b381ea579538b6ff25a5899da250a5fce",
+     "path": "notices/libnvat-static/crates/fluent-uri-0.3.2/LICENSE"
+    }
+   ],
+   "evidence": "version string embedded in libnvat panic/source paths",
+   "wheel_0_1_2_notices": "NO_ATTRIBUTION_FOUND"
+  },
+  {
+   "component": "form_urlencoded",
+   "ecosystem": "rust-crate",
+   "version": "1.2.2",
+   "version_status": "VERSION_PROVEN",
+   "license_declared": "MIT OR Apache-2.0",
+   "source": "https://crates.io/crates/form_urlencoded/1.2.2",
+   "sha256": "cb4cb245038516f5f85277875cdaa4f7d2c9a0fa0468de06ed190163b1581fcf",
+   "checksum_verified_against_crates_io": true,
+   "license_files": [
+    {
+     "file": "LICENSE-APACHE",
+     "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+     "path": "notices/libnvat-static/crates/form_urlencoded-1.2.2/LICENSE-APACHE"
+    },
+    {
+     "file": "LICENSE-MIT",
+     "sha256": "20c7855c364d57ea4c97889a5e8d98470a9952dade37bd9248b9a54431670e5e",
+     "path": "notices/libnvat-static/crates/form_urlencoded-1.2.2/LICENSE-MIT"
+    }
+   ],
+   "evidence": "version string embedded in libnvat panic/source paths",
+   "wheel_0_1_2_notices": "ATTRIBUTED_BY_NAME_MATCH"
+  },
+  {
+   "component": "fraction",
+   "ecosystem": "rust-crate",
+   "version": "0.15.4",
+   "version_status": "VERSION_PROVEN",
+   "license_declared": "MIT OR Apache-2.0",
+   "source": "https://crates.io/crates/fraction/0.15.4",
+   "sha256": "e076045bb43dac435333ed5f04caf35c7463631d0dae2deb2638d94dd0a5b872",
+   "checksum_verified_against_crates_io": true,
+   "license_files": [
+    {
+     "file": "LICENSE-APACHE",
+     "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+     "path": "notices/libnvat-static/crates/fraction-0.15.4/LICENSE-APACHE"
+    },
+    {
+     "file": "LICENSE-MIT",
+     "sha256": "6485b8ed310d3f0340bf1ad1f47645069ce4069dcc6bb46c7d5c6faf41de1fdb",
+     "path": "notices/libnvat-static/crates/fraction-0.15.4/LICENSE-MIT"
+    }
+   ],
+   "evidence": "version string embedded in libnvat panic/source paths",
+   "wheel_0_1_2_notices": "NO_ATTRIBUTION_FOUND"
+  },
+  {
+   "component": "hashbrown",
+   "ecosystem": "rust-crate",
+   "version": "0.17.1",
+   "version_status": "VERSION_PROVEN",
+   "license_declared": "MIT OR Apache-2.0",
+   "source": "https://crates.io/crates/hashbrown/0.17.1",
+   "sha256": "ed5909b6e89a2db4456e54cd5f673791d7eca6732202bbf2a9cc504fe2f9b84a",
+   "checksum_verified_against_crates_io": true,
+   "license_files": [
+    {
+     "file": "LICENSE-APACHE",
+     "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+     "path": "notices/libnvat-static/crates/hashbrown-0.17.1/LICENSE-APACHE"
+    },
+    {
+     "file": "LICENSE-MIT",
+     "sha256": "ff8f68cb076caf8cefe7a6430d4ac086ce6af2ca8ce2c4e5a2004d4552ef52a2",
+     "path": "notices/libnvat-static/crates/hashbrown-0.17.1/LICENSE-MIT"
+    }
+   ],
+   "evidence": "version string embedded in libnvat panic/source paths",
+   "wheel_0_1_2_notices": "ATTRIBUTED_BY_NAME_MATCH"
+  },
+  {
+   "component": "iana-time-zone",
+   "ecosystem": "rust-crate",
+   "version": "0.1.65",
+   "version_status": "VERSION_PROVEN",
+   "license_declared": "MIT OR Apache-2.0",
+   "source": "https://crates.io/crates/iana-time-zone/0.1.65",
+   "sha256": "e31bc9ad994ba00e440a8aa5c9ef0ec67d5cb5e5cb0cc7f8b744a35b389cc470",
+   "checksum_verified_against_crates_io": true,
+   "license_files": [
+    {
+     "file": "LICENSE-APACHE",
+     "sha256": "696759d65dfe558ff7d9f031c76db19ec5c0767470fb67c4e8d990820d1e99c9",
+     "path": "notices/libnvat-static/crates/iana-time-zone-0.1.65/LICENSE-APACHE"
+    },
+    {
+     "file": "LICENSE-MIT",
+     "sha256": "da28ccc6b158fc2d8cccc74e99794b1cff1d29bd7bbeb019442fcf0c04c6cad9",
+     "path": "notices/libnvat-static/crates/iana-time-zone-0.1.65/LICENSE-MIT"
+    }
+   ],
+   "evidence": "version string embedded in libnvat panic/source paths",
+   "wheel_0_1_2_notices": "NO_ATTRIBUTION_FOUND"
+  },
+  {
+   "component": "icu_collections",
+   "ecosystem": "rust-crate",
+   "version": "2.3.0",
+   "version_status": "VERSION_PROVEN",
+   "license_declared": "Unicode-3.0",
+   "source": "https://crates.io/crates/icu_collections/2.3.0",
+   "sha256": "fa68d21081c4a05d5a901a1c62add574c77048b6a1c67be3b50ce0b60d4ca513",
+   "checksum_verified_against_crates_io": true,
+   "license_files": [
+    {
+     "file": "LICENSE",
+     "sha256": "f367c1b8e1aa262435251e442901da4607b4650e0e63a026f5044473ecfb90f2",
+     "path": "notices/libnvat-static/crates/icu_collections-2.3.0/LICENSE"
+    }
+   ],
+   "evidence": "version string embedded in libnvat panic/source paths",
+   "wheel_0_1_2_notices": "ATTRIBUTED_BY_NAME_MATCH"
+  },
+  {
+   "component": "icu_locale_core",
+   "ecosystem": "rust-crate",
+   "version": "2.3.0",
+   "version_status": "VERSION_PROVEN",
+   "license_declared": "Unicode-3.0",
+   "source": "https://crates.io/crates/icu_locale_core/2.3.0",
+   "sha256": "d56e28588da92eee5c3201a6eff33fabdd49b62269c8938d4ff050ce4d900deb",
+   "checksum_verified_against_crates_io": true,
+   "license_files": [
+    {
+     "file": "LICENSE",
+     "sha256": "f367c1b8e1aa262435251e442901da4607b4650e0e63a026f5044473ecfb90f2",
+     "path": "notices/libnvat-static/crates/icu_locale_core-2.3.0/LICENSE"
+    }
+   ],
+   "evidence": "version string embedded in libnvat panic/source paths",
+   "wheel_0_1_2_notices": "ATTRIBUTED_BY_NAME_MATCH"
+  },
+  {
+   "component": "icu_normalizer",
+   "ecosystem": "rust-crate",
+   "version": "2.3.0",
+   "version_status": "VERSION_PROVEN",
+   "license_declared": "Unicode-3.0",
+   "source": "https://crates.io/crates/icu_normalizer/2.3.0",
+   "sha256": "12f9cf5f235641ed274641dd81c3f28d870e276763d0797aeeab72317b1c646f",
+   "checksum_verified_against_crates_io": true,
+   "license_files": [
+    {
+     "file": "LICENSE",
+     "sha256": "f367c1b8e1aa262435251e442901da4607b4650e0e63a026f5044473ecfb90f2",
+     "path": "notices/libnvat-static/crates/icu_normalizer-2.3.0/LICENSE"
+    }
+   ],
+   "evidence": "version string embedded in libnvat panic/source paths",
+   "wheel_0_1_2_notices": "ATTRIBUTED_BY_NAME_MATCH"
+  },
+  {
+   "component": "icu_provider",
+   "ecosystem": "rust-crate",
+   "version": "2.3.1",
+   "version_status": "VERSION_PROVEN",
+   "license_declared": "Unicode-3.0",
+   "source": "https://crates.io/crates/icu_provider/2.3.1",
+   "sha256": "d27bbb9d3abbefac45d55f647c9de1d44aafcd1186eb91879afef17c396c3e73",
+   "checksum_verified_against_crates_io": true,
+   "license_files": [
+    {
+     "file": "LICENSE",
+     "sha256": "f367c1b8e1aa262435251e442901da4607b4650e0e63a026f5044473ecfb90f2",
+     "path": "notices/libnvat-static/crates/icu_provider-2.3.1/LICENSE"
+    }
+   ],
+   "evidence": "version string embedded in libnvat panic/source paths",
+   "wheel_0_1_2_notices": "ATTRIBUTED_BY_NAME_MATCH"
+  },
+  {
+   "component": "idna",
+   "ecosystem": "rust-crate",
+   "version": "1.1.0",
+   "version_status": "VERSION_PROVEN",
+   "license_declared": "MIT OR Apache-2.0",
+   "source": "https://crates.io/crates/idna/1.1.0",
+   "sha256": "3b0875f23caa03898994f6ddc501886a45c7d3d62d04d2d90788d47be1b1e4de",
+   "checksum_verified_against_crates_io": true,
+   "license_files": [
+    {
+     "file": "LICENSE-APACHE",
+     "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+     "path": "notices/libnvat-static/crates/idna-1.1.0/LICENSE-APACHE"
+    },
+    {
+     "file": "LICENSE-MIT",
+     "sha256": "b38f11f6096706e6de553dabe2a7ed142d59b6fa8c97e290c67496154745cdd5",
+     "path": "notices/libnvat-static/crates/idna-1.1.0/LICENSE-MIT"
+    }
+   ],
+   "evidence": "version string embedded in libnvat panic/source paths",
+   "wheel_0_1_2_notices": "ATTRIBUTED_BY_NAME_MATCH"
+  },
+  {
+   "component": "indexmap",
+   "ecosystem": "rust-crate",
+   "version": "2.14.2",
+   "version_status": "VERSION_PROVEN",
+   "license_declared": "Apache-2.0 OR MIT",
+   "source": "https://crates.io/crates/indexmap/2.14.2",
+   "sha256": "cc4e190f5d26ca7051642629da2c52fc03bde85a03197c99408dcd291734c855",
+   "checksum_verified_against_crates_io": true,
+   "license_files": [
+    {
+     "file": "LICENSE-APACHE",
+     "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+     "path": "notices/libnvat-static/crates/indexmap-2.14.2/LICENSE-APACHE"
+    },
+    {
+     "file": "LICENSE-MIT",
+     "sha256": "ecc269ef87fd38a1d98e30bfac9ba964a9dbd9315c3770fed98d4d7cb5882055",
+     "path": "notices/libnvat-static/crates/indexmap-2.14.2/LICENSE-MIT"
+    }
+   ],
+   "evidence": "version string embedded in libnvat panic/source paths",
+   "wheel_0_1_2_notices": "ATTRIBUTED_BY_NAME_MATCH"
+  },
+  {
+   "component": "itertools",
+   "ecosystem": "rust-crate",
+   "version": "0.11.0",
+   "version_status": "VERSION_PROVEN",
+   "license_declared": "MIT OR Apache-2.0",
+   "source": "https://crates.io/crates/itertools/0.11.0",
+   "sha256": "b1c173a5686ce8bfa551b3563d0c2170bf24ca44da99c7ca4bfdab5418c3fe57",
+   "checksum_verified_against_crates_io": true,
+   "license_files": [
+    {
+     "file": "LICENSE-APACHE",
+     "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+     "path": "notices/libnvat-static/crates/itertools-0.11.0/LICENSE-APACHE"
+    },
+    {
+     "file": "LICENSE-MIT",
+     "sha256": "7576269ea71f767b99297934c0b2367532690f8c4badc695edf8e04ab6a1e545",
+     "path": "notices/libnvat-static/crates/itertools-0.11.0/LICENSE-MIT"
+    }
+   ],
+   "evidence": "version string embedded in libnvat panic/source paths",
+   "wheel_0_1_2_notices": "NO_ATTRIBUTION_FOUND"
+  },
+  {
+   "component": "itoa",
+   "ecosystem": "rust-crate",
+   "version": "1.0.18",
+   "version_status": "VERSION_PROVEN",
+   "license_declared": "MIT OR Apache-2.0",
+   "source": "https://crates.io/crates/itoa/1.0.18",
+   "sha256": "8f42a60cbdf9a97f5d2305f08a87dc4e09308d1276d28c869c684d7777685682",
+   "checksum_verified_against_crates_io": true,
+   "license_files": [
+    {
+     "file": "LICENSE-APACHE",
+     "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a",
+     "path": "notices/libnvat-static/crates/itoa-1.0.18/LICENSE-APACHE"
+    },
+    {
+     "file": "LICENSE-MIT",
+     "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3",
+     "path": "notices/libnvat-static/crates/itoa-1.0.18/LICENSE-MIT"
+    }
+   ],
+   "evidence": "version string embedded in libnvat panic/source paths",
+   "wheel_0_1_2_notices": "ATTRIBUTED_BY_NAME_MATCH"
+  },
+  {
+   "component": "jsonschema",
+   "ecosystem": "rust-crate",
+   "version": "0.29.1",
+   "version_status": "VERSION_PROVEN",
+   "license_declared": "MIT",
+   "source": "https://crates.io/crates/jsonschema/0.29.1",
+   "sha256": "161c33c3ec738cfea3288c5c53dfcdb32fd4fc2954de86ea06f71b5a1a40bfcd",
+   "checksum_verified_against_crates_io": true,
+   "license_files": [
+    {
+     "file": "LICENSE",
+     "sha256": "a573f030c2ae7eab837ab7d66440954ae54c5eabe6848c1a1fe9187215f50591",
+     "path": "notices/libnvat-static/crates/jsonschema-0.29.1/LICENSE"
+    }
+   ],
+   "evidence": "version string embedded in libnvat panic/source paths",
+   "wheel_0_1_2_notices": "NO_ATTRIBUTION_FOUND"
+  },
+  {
+   "component": "lazy_static",
+   "ecosystem": "rust-crate",
+   "version": "1.5.1",
+   "version_status": "VERSION_PROVEN",
+   "license_declared": "MIT OR Apache-2.0",
+   "source": "https://crates.io/crates/lazy_static/1.5.1",
+   "sha256": "20870f649af7073d53e38067b2a84312175d56ea15217e1b15bc83506ec50afb",
+   "checksum_verified_against_crates_io": true,
+   "license_files": [
+    {
+     "file": "LICENSE-APACHE",
+     "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+     "path": "notices/libnvat-static/crates/lazy_static-1.5.1/LICENSE-APACHE"
+    },
+    {
+     "file": "LICENSE-MIT",
+     "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3",
+     "path": "notices/libnvat-static/crates/lazy_static-1.5.1/LICENSE-MIT"
+    }
+   ],
+   "evidence": "version string embedded in libnvat panic/source paths",
+   "wheel_0_1_2_notices": "ATTRIBUTED_BY_NAME_MATCH"
+  },
+  {
+   "component": "memchr",
+   "ecosystem": "rust-crate",
+   "version": "2.8.3",
+   "version_status": "VERSION_PROVEN",
+   "license_declared": "Unlicense OR MIT",
+   "source": "https://crates.io/crates/memchr/2.8.3",
+   "sha256": "cf8baf1c55e62ffcace7a9f06f4bd9cd3f0c4beb022d3b367256b91b87513d98",
+   "checksum_verified_against_crates_io": true,
+   "license_files": [
+    {
+     "file": "COPYING",
+     "sha256": "01c266bced4a434da0051174d6bee16a4c82cf634e2679b6155d40d75012390f",
+     "path": "notices/libnvat-static/crates/memchr-2.8.3/COPYING"
+    },
+    {
+     "file": "LICENSE-MIT",
+     "sha256": "0f96a83840e146e43c0ec96a22ec1f392e0680e6c1226e6f3ba87e0740af850f",
+     "path": "notices/libnvat-static/crates/memchr-2.8.3/LICENSE-MIT"
+    },
+    {
+     "file": "UNLICENSE",
+     "sha256": "7e12e5df4bae12cb21581ba157ced20e1986a0508dd10d0e8a4ab9a4cf94e85c",
+     "path": "notices/libnvat-static/crates/memchr-2.8.3/UNLICENSE"
+    }
+   ],
+   "evidence": "version string embedded in libnvat panic/source paths",
+   "wheel_0_1_2_notices": "ATTRIBUTED_BY_NAME_MATCH"
+  },
+  {
+   "component": "nom",
+   "ecosystem": "rust-crate",
+   "version": "7.1.3",
+   "version_status": "VERSION_PROVEN",
+   "license_declared": "MIT",
+   "source": "https://crates.io/crates/nom/7.1.3",
+   "sha256": "d273983c5a657a70a3e8f2a01329822f3b8c8172b73826411a55751e404a0a4a",
+   "checksum_verified_against_crates_io": true,
+   "license_files": [
+    {
+     "file": "LICENSE",
+     "sha256": "4dbda04344456f09a7a588140455413a9ac59b6b26a1ef7cdf9c800c012d87f0",
+     "path": "notices/libnvat-static/crates/nom-7.1.3/LICENSE"
+    }
+   ],
+   "evidence": "version string embedded in libnvat panic/source paths",
+   "wheel_0_1_2_notices": "NO_ATTRIBUTION_FOUND"
+  },
+  {
+   "component": "num-bigint",
+   "ecosystem": "rust-crate",
+   "version": "0.4.8",
+   "version_status": "VERSION_PROVEN",
+   "license_declared": "MIT OR Apache-2.0",
+   "source": "https://crates.io/crates/num-bigint/0.4.8",
+   "sha256": "c89e69e7e0f03bea5ef08013795c25018e101932225a656383bd384495ecc367",
+   "checksum_verified_against_crates_io": true,
+   "license_files": [
+    {
+     "file": "LICENSE-APACHE",
+     "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+     "path": "notices/libnvat-static/crates/num-bigint-0.4.8/LICENSE-APACHE"
+    },
+    {
+     "file": "LICENSE-MIT",
+     "sha256": "6485b8ed310d3f0340bf1ad1f47645069ce4069dcc6bb46c7d5c6faf41de1fdb",
+     "path": "notices/libnvat-static/crates/num-bigint-0.4.8/LICENSE-MIT"
+    }
+   ],
+   "evidence": "version string embedded in libnvat panic/source paths",
+   "wheel_0_1_2_notices": "NO_ATTRIBUTION_FOUND"
+  },
+  {
+   "component": "num-integer",
+   "ecosystem": "rust-crate",
+   "version": "0.1.47",
+   "version_status": "VERSION_PROVEN",
+   "license_declared": "MIT OR Apache-2.0",
+   "source": "https://crates.io/crates/num-integer/0.1.47",
+   "sha256": "7ce2d95d4b3734dc35aa2f45e1aa22cd416814592a4f9d9205e11affd5b8e10b",
+   "checksum_verified_against_crates_io": true,
+   "license_files": [
+    {
+     "file": "LICENSE-APACHE",
+     "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+     "path": "notices/libnvat-static/crates/num-integer-0.1.47/LICENSE-APACHE"
+    },
+    {
+     "file": "LICENSE-MIT",
+     "sha256": "6485b8ed310d3f0340bf1ad1f47645069ce4069dcc6bb46c7d5c6faf41de1fdb",
+     "path": "notices/libnvat-static/crates/num-integer-0.1.47/LICENSE-MIT"
+    }
+   ],
+   "evidence": "version string embedded in libnvat panic/source paths",
+   "wheel_0_1_2_notices": "ATTRIBUTED_BY_NAME_MATCH"
+  },
+  {
+   "component": "num-rational",
+   "ecosystem": "rust-crate",
+   "version": "0.4.2",
+   "version_status": "VERSION_PROVEN",
+   "license_declared": "MIT OR Apache-2.0",
+   "source": "https://crates.io/crates/num-rational/0.4.2",
+   "sha256": "f83d14da390562dca69fc84082e73e548e1ad308d24accdedd2720017cb37824",
+   "checksum_verified_against_crates_io": true,
+   "license_files": [
+    {
+     "file": "LICENSE-APACHE",
+     "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+     "path": "notices/libnvat-static/crates/num-rational-0.4.2/LICENSE-APACHE"
+    },
+    {
+     "file": "LICENSE-MIT",
+     "sha256": "6485b8ed310d3f0340bf1ad1f47645069ce4069dcc6bb46c7d5c6faf41de1fdb",
+     "path": "notices/libnvat-static/crates/num-rational-0.4.2/LICENSE-MIT"
+    }
+   ],
+   "evidence": "version string embedded in libnvat panic/source paths",
+   "wheel_0_1_2_notices": "NO_ATTRIBUTION_FOUND"
+  },
+  {
+   "component": "once_cell",
+   "ecosystem": "rust-crate",
+   "version": "1.21.4",
+   "version_status": "VERSION_PROVEN",
+   "license_declared": "MIT OR Apache-2.0",
+   "source": "https://crates.io/crates/once_cell/1.21.4",
+   "sha256": "9f7c3e4beb33f85d45ae3e3a1792185706c8e16d043238c593331cc7cd313b50",
+   "checksum_verified_against_crates_io": true,
+   "license_files": [
+    {
+     "file": "LICENSE-APACHE",
+     "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+     "path": "notices/libnvat-static/crates/once_cell-1.21.4/LICENSE-APACHE"
+    },
+    {
+     "file": "LICENSE-MIT",
+     "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3",
+     "path": "notices/libnvat-static/crates/once_cell-1.21.4/LICENSE-MIT"
+    }
+   ],
+   "evidence": "version string embedded in libnvat panic/source paths",
+   "wheel_0_1_2_notices": "ATTRIBUTED_BY_NAME_MATCH"
+  },
+  {
+   "component": "parking_lot",
+   "ecosystem": "rust-crate",
+   "version": "0.12.5",
+   "version_status": "VERSION_PROVEN",
+   "license_declared": "MIT OR Apache-2.0",
+   "source": "https://crates.io/crates/parking_lot/0.12.5",
+   "sha256": "93857453250e3077bd71ff98b6a65ea6621a19bb0f559a85248955ac12c45a1a",
+   "checksum_verified_against_crates_io": true,
+   "license_files": [
+    {
+     "file": "LICENSE-APACHE",
+     "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+     "path": "notices/libnvat-static/crates/parking_lot-0.12.5/LICENSE-APACHE"
+    },
+    {
+     "file": "LICENSE-MIT",
+     "sha256": "c9a75f18b9ab2927829a208fc6aa2cf4e63b8420887ba29cdb265d6619ae82d5",
+     "path": "notices/libnvat-static/crates/parking_lot-0.12.5/LICENSE-MIT"
+    }
+   ],
+   "evidence": "version string embedded in libnvat panic/source paths",
+   "wheel_0_1_2_notices": "ATTRIBUTED_BY_NAME_MATCH"
+  },
+  {
+   "component": "parking_lot_core",
+   "ecosystem": "rust-crate",
+   "version": "0.9.12",
+   "version_status": "VERSION_PROVEN",
+   "license_declared": "MIT OR Apache-2.0",
+   "source": "https://crates.io/crates/parking_lot_core/0.9.12",
+   "sha256": "2621685985a2ebf1c516881c026032ac7deafcda1a2c9b7850dc81e3dfcb64c1",
+   "checksum_verified_against_crates_io": true,
+   "license_files": [
+    {
+     "file": "LICENSE-APACHE",
+     "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+     "path": "notices/libnvat-static/crates/parking_lot_core-0.9.12/LICENSE-APACHE"
+    },
+    {
+     "file": "LICENSE-MIT",
+     "sha256": "c9a75f18b9ab2927829a208fc6aa2cf4e63b8420887ba29cdb265d6619ae82d5",
+     "path": "notices/libnvat-static/crates/parking_lot_core-0.9.12/LICENSE-MIT"
+    }
+   ],
+   "evidence": "version string embedded in libnvat panic/source paths",
+   "wheel_0_1_2_notices": "ATTRIBUTED_BY_NAME_MATCH"
+  },
+  {
+   "component": "percent-encoding",
+   "ecosystem": "rust-crate",
+   "version": "2.3.2",
+   "version_status": "VERSION_PROVEN",
+   "license_declared": "MIT OR Apache-2.0",
+   "source": "https://crates.io/crates/percent-encoding/2.3.2",
+   "sha256": "9b4f627cb1b25917193a259e49bdad08f671f8d9708acfd5fe0a8c1455d87220",
+   "checksum_verified_against_crates_io": true,
+   "license_files": [
+    {
+     "file": "LICENSE-APACHE",
+     "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+     "path": "notices/libnvat-static/crates/percent-encoding-2.3.2/LICENSE-APACHE"
+    },
+    {
+     "file": "LICENSE-MIT",
+     "sha256": "b38f11f6096706e6de553dabe2a7ed142d59b6fa8c97e290c67496154745cdd5",
+     "path": "notices/libnvat-static/crates/percent-encoding-2.3.2/LICENSE-MIT"
+    }
+   ],
+   "evidence": "version string embedded in libnvat panic/source paths",
+   "wheel_0_1_2_notices": "ATTRIBUTED_BY_NAME_MATCH"
+  },
+  {
+   "component": "ppv-lite86",
+   "ecosystem": "rust-crate",
+   "version": "0.2.21",
+   "version_status": "VERSION_PROVEN",
+   "license_declared": "MIT OR Apache-2.0",
+   "source": "https://crates.io/crates/ppv-lite86/0.2.21",
+   "sha256": "85eae3c4ed2f50dcfe72643da4befc30deadb458a9b590d720cde2f2b1e97da9",
+   "checksum_verified_against_crates_io": true,
+   "license_files": [
+    {
+     "file": "LICENSE-APACHE",
+     "sha256": "0218327e7a480793ffdd4eb792379a9709e5c135c7ba267f709d6f6d4d70af0a",
+     "path": "notices/libnvat-static/crates/ppv-lite86-0.2.21/LICENSE-APACHE"
+    },
+    {
+     "file": "LICENSE-MIT",
+     "sha256": "4cada0bd02ea3692eee6f16400d86c6508bbd3bafb2b65fed0419f36d4f83e8f",
+     "path": "notices/libnvat-static/crates/ppv-lite86-0.2.21/LICENSE-MIT"
+    }
+   ],
+   "evidence": "version string embedded in libnvat panic/source paths",
+   "wheel_0_1_2_notices": "ATTRIBUTED_BY_NAME_MATCH"
+  },
+  {
+   "component": "rand",
+   "ecosystem": "rust-crate",
+   "version": "0.10.3",
+   "version_status": "VERSION_PROVEN",
+   "license_declared": "MIT OR Apache-2.0",
+   "source": "https://crates.io/crates/rand/0.10.3",
+   "sha256": "65c9fb96cbc91e3478eaae79a69fcd3f1ae4ad052e471fe6732fff548984b4af",
+   "checksum_verified_against_crates_io": true,
+   "license_files": [
+    {
+     "file": "COPYRIGHT",
+     "sha256": "90eb64f0279b0d9432accfa6023ff803bc4965212383697eee27a0f426d5f8d5",
+     "path": "notices/libnvat-static/crates/rand-0.10.3/COPYRIGHT"
+    },
+    {
+     "file": "LICENSE-APACHE",
+     "sha256": "35242e7a83f69875e6edeff02291e688c97caafe2f8902e4e19b49d3e78b4cab",
+     "path": "notices/libnvat-static/crates/rand-0.10.3/LICENSE-APACHE"
+    },
+    {
+     "file": "LICENSE-MIT",
+     "sha256": "209fbbe0ad52d9235e37badf9cadfe4dbdc87203179c0899e738b39ade42177b",
+     "path": "notices/libnvat-static/crates/rand-0.10.3/LICENSE-MIT"
+    }
+   ],
+   "evidence": "version string embedded in libnvat panic/source paths",
+   "wheel_0_1_2_notices": "ATTRIBUTED_BY_NAME_MATCH"
+  },
+  {
+   "component": "rand",
+   "ecosystem": "rust-crate",
+   "version": "0.9.5",
+   "version_status": "VERSION_PROVEN",
+   "license_declared": "MIT OR Apache-2.0",
+   "source": "https://crates.io/crates/rand/0.9.5",
+   "sha256": "b9ef1d0d795eb7d84685bca4f72f3649f064e6641543d3a8c415898726a57b41",
+   "checksum_verified_against_crates_io": true,
+   "license_files": [
+    {
+     "file": "COPYRIGHT",
+     "sha256": "90eb64f0279b0d9432accfa6023ff803bc4965212383697eee27a0f426d5f8d5",
+     "path": "notices/libnvat-static/crates/rand-0.9.5/COPYRIGHT"
+    },
+    {
+     "file": "LICENSE-APACHE",
+     "sha256": "35242e7a83f69875e6edeff02291e688c97caafe2f8902e4e19b49d3e78b4cab",
+     "path": "notices/libnvat-static/crates/rand-0.9.5/LICENSE-APACHE"
+    },
+    {
+     "file": "LICENSE-MIT",
+     "sha256": "209fbbe0ad52d9235e37badf9cadfe4dbdc87203179c0899e738b39ade42177b",
+     "path": "notices/libnvat-static/crates/rand-0.9.5/LICENSE-MIT"
+    }
+   ],
+   "evidence": "version string embedded in libnvat panic/source paths",
+   "wheel_0_1_2_notices": "ATTRIBUTED_BY_NAME_MATCH"
+  },
+  {
+   "component": "rand_chacha",
+   "ecosystem": "rust-crate",
+   "version": "0.9.0",
+   "version_status": "VERSION_PROVEN",
+   "license_declared": "MIT OR Apache-2.0",
+   "source": "https://crates.io/crates/rand_chacha/0.9.0",
+   "sha256": "d3022b5f1df60f26e1ffddd6c66e8aa15de382ae63b3a0c1bfc0e4d3e3f325cb",
+   "checksum_verified_against_crates_io": true,
+   "license_files": [
+    {
+     "file": "COPYRIGHT",
+     "sha256": "90eb64f0279b0d9432accfa6023ff803bc4965212383697eee27a0f426d5f8d5",
+     "path": "notices/libnvat-static/crates/rand_chacha-0.9.0/COPYRIGHT"
+    },
+    {
+     "file": "LICENSE-APACHE",
+     "sha256": "35242e7a83f69875e6edeff02291e688c97caafe2f8902e4e19b49d3e78b4cab",
+     "path": "notices/libnvat-static/crates/rand_chacha-0.9.0/LICENSE-APACHE"
+    },
+    {
+     "file": "LICENSE-MIT",
+     "sha256": "209fbbe0ad52d9235e37badf9cadfe4dbdc87203179c0899e738b39ade42177b",
+     "path": "notices/libnvat-static/crates/rand_chacha-0.9.0/LICENSE-MIT"
+    }
+   ],
+   "evidence": "version string embedded in libnvat panic/source paths",
+   "wheel_0_1_2_notices": "ATTRIBUTED_BY_NAME_MATCH"
+  },
+  {
+   "component": "referencing",
+   "ecosystem": "rust-crate",
+   "version": "0.29.1",
+   "version_status": "VERSION_PROVEN",
+   "license_declared": "MIT",
+   "source": "https://crates.io/crates/referencing/0.29.1",
+   "sha256": "40a64b3a635fad9000648b4d8a59c8710c523ab61a23d392a7d91d47683f5adc",
+   "checksum_verified_against_crates_io": true,
+   "license_files": [
+    {
+     "file": "LICENSE",
+     "sha256": "a573f030c2ae7eab837ab7d66440954ae54c5eabe6848c1a1fe9187215f50591",
+     "path": "notices/libnvat-static/crates/referencing-0.29.1/LICENSE"
+    }
+   ],
+   "evidence": "version string embedded in libnvat panic/source paths",
+   "wheel_0_1_2_notices": "ATTRIBUTED_BY_NAME_MATCH"
+  },
+  {
+   "component": "regex",
+   "ecosystem": "rust-crate",
+   "version": "1.13.1",
+   "version_status": "VERSION_PROVEN",
+   "license_declared": "MIT OR Apache-2.0",
+   "source": "https://crates.io/crates/regex/1.13.1",
+   "sha256": "f020237b6c8eed93db2e2cb53c00c60a8e1bc73da7d073199a1180401450218d",
+   "checksum_verified_against_crates_io": true,
+   "license_files": [
+    {
+     "file": "LICENSE-APACHE",
+     "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+     "path": "notices/libnvat-static/crates/regex-1.13.1/LICENSE-APACHE"
+    },
+    {
+     "file": "LICENSE-MIT",
+     "sha256": "6485b8ed310d3f0340bf1ad1f47645069ce4069dcc6bb46c7d5c6faf41de1fdb",
+     "path": "notices/libnvat-static/crates/regex-1.13.1/LICENSE-MIT"
+    }
+   ],
+   "evidence": "version string embedded in libnvat panic/source paths",
+   "wheel_0_1_2_notices": "NO_ATTRIBUTION_FOUND"
+  },
+  {
+   "component": "regex-automata",
+   "ecosystem": "rust-crate",
+   "version": "0.4.18",
+   "version_status": "VERSION_PROVEN",
+   "license_declared": "MIT OR Apache-2.0",
+   "source": "https://crates.io/crates/regex-automata/0.4.18",
+   "sha256": "ad8553b9b26413251cbf30e620595c7a41b3887f03da04579c0e6b0d6a06b4b2",
+   "checksum_verified_against_crates_io": true,
+   "license_files": [
+    {
+     "file": "LICENSE-APACHE",
+     "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+     "path": "notices/libnvat-static/crates/regex-automata-0.4.18/LICENSE-APACHE"
+    },
+    {
+     "file": "LICENSE-MIT",
+     "sha256": "6485b8ed310d3f0340bf1ad1f47645069ce4069dcc6bb46c7d5c6faf41de1fdb",
+     "path": "notices/libnvat-static/crates/regex-automata-0.4.18/LICENSE-MIT"
+    }
+   ],
+   "evidence": "version string embedded in libnvat panic/source paths",
+   "wheel_0_1_2_notices": "NO_ATTRIBUTION_FOUND"
+  },
+  {
+   "component": "regex-syntax",
+   "ecosystem": "rust-crate",
+   "version": "0.8.11",
+   "version_status": "VERSION_PROVEN",
+   "license_declared": "MIT OR Apache-2.0",
+   "source": "https://crates.io/crates/regex-syntax/0.8.11",
+   "sha256": "d6f6ff9a378485b298a5286656da665ba74413d36db0979633275d2e708145d4",
+   "checksum_verified_against_crates_io": true,
+   "license_files": [
+    {
+     "file": "LICENSE-APACHE",
+     "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+     "path": "notices/libnvat-static/crates/regex-syntax-0.8.11/LICENSE-APACHE"
+    },
+    {
+     "file": "LICENSE-MIT",
+     "sha256": "6485b8ed310d3f0340bf1ad1f47645069ce4069dcc6bb46c7d5c6faf41de1fdb",
+     "path": "notices/libnvat-static/crates/regex-syntax-0.8.11/LICENSE-MIT"
+    }
+   ],
+   "evidence": "version string embedded in libnvat panic/source paths",
+   "wheel_0_1_2_notices": "NO_ATTRIBUTION_FOUND"
+  },
+  {
+   "component": "regorus",
+   "ecosystem": "rust-crate",
+   "version": "0.4.0",
+   "version_status": "VERSION_PROVEN",
+   "license_declared": "non-standard",
+   "source": "https://crates.io/crates/regorus/0.4.0",
+   "sha256": "bf70615014ce5c89fe427197fd9b52e6506916838b449e80ee141adc43adec6b",
+   "checksum_verified_against_crates_io": true,
+   "license_files": [
+    {
+     "file": "LICENSE",
+     "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383",
+     "path": "notices/libnvat-static/crates/regorus-0.4.0/LICENSE"
+    }
+   ],
+   "evidence": "CMake FetchContent GIT_TAG regorus-v0.4.0 (source-pinned)",
+   "wheel_0_1_2_notices": "NO_ATTRIBUTION_FOUND"
+  },
+  {
+   "component": "scientific",
+   "ecosystem": "rust-crate",
+   "version": "0.5.3",
+   "version_status": "VERSION_PROVEN",
+   "license_declared": "MIT",
+   "source": "https://crates.io/crates/scientific/0.5.3",
+   "sha256": "38a4b339a8de779ecb098a772ecbba2ace74e23ed959a5b4f30631d8bf1799a8",
+   "checksum_verified_against_crates_io": true,
+   "license_files": [
+    {
+     "file": "LICENSE",
+     "sha256": "9ec180105e2b1eb596afcd8a893a3477442269fd087c89c0d6026256fab74c17",
+     "path": "notices/libnvat-static/crates/scientific-0.5.3/LICENSE"
+    }
+   ],
+   "evidence": "version string embedded in libnvat panic/source paths",
+   "wheel_0_1_2_notices": "ATTRIBUTED_BY_NAME_MATCH"
+  },
+  {
+   "component": "semver",
+   "ecosystem": "rust-crate",
+   "version": "1.0.28",
+   "version_status": "VERSION_PROVEN",
+   "license_declared": "MIT OR Apache-2.0",
+   "source": "https://crates.io/crates/semver/1.0.28",
+   "sha256": "8a7852d02fc848982e0c167ef163aaff9cd91dc640ba85e263cb1ce46fae51cd",
+   "checksum_verified_against_crates_io": true,
+   "license_files": [
+    {
+     "file": "LICENSE-APACHE",
+     "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a",
+     "path": "notices/libnvat-static/crates/semver-1.0.28/LICENSE-APACHE"
+    },
+    {
+     "file": "LICENSE-MIT",
+     "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3",
+     "path": "notices/libnvat-static/crates/semver-1.0.28/LICENSE-MIT"
+    }
+   ],
+   "evidence": "version string embedded in libnvat panic/source paths",
+   "wheel_0_1_2_notices": "ATTRIBUTED_BY_NAME_MATCH"
+  },
+  {
+   "component": "serde",
+   "ecosystem": "rust-crate",
+   "version": "1.0.229",
+   "version_status": "VERSION_PROVEN",
+   "license_declared": "MIT OR Apache-2.0",
+   "source": "https://crates.io/crates/serde/1.0.229",
+   "sha256": "4148590afebada386688f18773da617792bf2ef03ffc1e4cbd2b1d45b023e0ba",
+   "checksum_verified_against_crates_io": true,
+   "license_files": [
+    {
+     "file": "LICENSE-APACHE",
+     "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a",
+     "path": "notices/libnvat-static/crates/serde-1.0.229/LICENSE-APACHE"
+    },
+    {
+     "file": "LICENSE-MIT",
+     "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3",
+     "path": "notices/libnvat-static/crates/serde-1.0.229/LICENSE-MIT"
+    }
+   ],
+   "evidence": "version string embedded in libnvat panic/source paths",
+   "wheel_0_1_2_notices": "ATTRIBUTED_BY_NAME_MATCH"
+  },
+  {
+   "component": "serde_core",
+   "ecosystem": "rust-crate",
+   "version": "1.0.229",
+   "version_status": "VERSION_PROVEN",
+   "license_declared": "MIT OR Apache-2.0",
+   "source": "https://crates.io/crates/serde_core/1.0.229",
+   "sha256": "67dca2c9c51e58a4791a4b1ed58308b39c64224d349a935ab5039aa360942a48",
+   "checksum_verified_against_crates_io": true,
+   "license_files": [
+    {
+     "file": "LICENSE-APACHE",
+     "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a",
+     "path": "notices/libnvat-static/crates/serde_core-1.0.229/LICENSE-APACHE"
+    },
+    {
+     "file": "LICENSE-MIT",
+     "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3",
+     "path": "notices/libnvat-static/crates/serde_core-1.0.229/LICENSE-MIT"
+    }
+   ],
+   "evidence": "version string embedded in libnvat panic/source paths",
+   "wheel_0_1_2_notices": "ATTRIBUTED_BY_NAME_MATCH"
+  },
+  {
+   "component": "serde_json",
+   "ecosystem": "rust-crate",
+   "version": "1.0.151",
+   "version_status": "VERSION_PROVEN",
+   "license_declared": "MIT OR Apache-2.0",
+   "source": "https://crates.io/crates/serde_json/1.0.151",
+   "sha256": "c841b55ecdae098c80dcae9cf767f6f8a0c2cdb3416bbef72181df4d0fe73f14",
+   "checksum_verified_against_crates_io": true,
+   "license_files": [
+    {
+     "file": "LICENSE-APACHE",
+     "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a",
+     "path": "notices/libnvat-static/crates/serde_json-1.0.151/LICENSE-APACHE"
+    },
+    {
+     "file": "LICENSE-MIT",
+     "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3",
+     "path": "notices/libnvat-static/crates/serde_json-1.0.151/LICENSE-MIT"
+    }
+   ],
+   "evidence": "version string embedded in libnvat panic/source paths",
+   "wheel_0_1_2_notices": "ATTRIBUTED_BY_NAME_MATCH"
+  },
+  {
+   "component": "serde_yaml",
+   "ecosystem": "rust-crate",
+   "version": "0.9.34+deprecated",
+   "version_status": "VERSION_PROVEN",
+   "license_declared": "MIT OR Apache-2.0",
+   "source": "https://crates.io/crates/serde_yaml/0.9.34+deprecated",
+   "sha256": "6a8b1a1a2ebf674015cc02edccce75287f1a0130d394307b36743c2f5d504b47",
+   "checksum_verified_against_crates_io": true,
+   "license_files": [
+    {
+     "file": "LICENSE-APACHE",
+     "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a",
+     "path": "notices/libnvat-static/crates/serde_yaml-0.9.34+deprecated/LICENSE-APACHE"
+    },
+    {
+     "file": "LICENSE-MIT",
+     "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3",
+     "path": "notices/libnvat-static/crates/serde_yaml-0.9.34+deprecated/LICENSE-MIT"
+    }
+   ],
+   "evidence": "version string embedded in libnvat panic/source paths",
+   "wheel_0_1_2_notices": "NO_ATTRIBUTION_FOUND"
+  },
+  {
+   "component": "sha2",
+   "ecosystem": "rust-crate",
+   "version": "0.10.9",
+   "version_status": "VERSION_PROVEN",
+   "license_declared": "MIT OR Apache-2.0",
+   "source": "https://crates.io/crates/sha2/0.10.9",
+   "sha256": "a7507d819769d01a365ab707794a4084392c824f54a7a6a7862f8c3d0892b283",
+   "checksum_verified_against_crates_io": true,
+   "license_files": [
+    {
+     "file": "LICENSE-APACHE",
+     "sha256": "a9040321c3712d8fd0b09cf52b17445de04a23a10165049ae187cd39e5c86be5",
+     "path": "notices/libnvat-static/crates/sha2-0.10.9/LICENSE-APACHE"
+    },
+    {
+     "file": "LICENSE-MIT",
+     "sha256": "b4eb00df6e2a4d22518fcaa6a2b4646f249b3a3c9814509b22bd2091f1392ff1",
+     "path": "notices/libnvat-static/crates/sha2-0.10.9/LICENSE-MIT"
+    }
+   ],
+   "evidence": "version string embedded in libnvat panic/source paths",
+   "wheel_0_1_2_notices": "ATTRIBUTED_BY_NAME_MATCH"
+  },
+  {
+   "component": "smallvec",
+   "ecosystem": "rust-crate",
+   "version": "1.16.2",
+   "version_status": "VERSION_PROVEN",
+   "license_declared": "MIT OR Apache-2.0",
+   "source": "https://crates.io/crates/smallvec/1.16.2",
+   "sha256": "f9395f0f0eee849a9b707b2f06bb92a6a422090e2123bb2ef8e87a0e61892a8e",
+   "checksum_verified_against_crates_io": true,
+   "license_files": [
+    {
+     "file": "LICENSE-APACHE",
+     "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+     "path": "notices/libnvat-static/crates/smallvec-1.16.2/LICENSE-APACHE"
+    },
+    {
+     "file": "LICENSE-MIT",
+     "sha256": "0b28172679e0009b655da42797c03fd163a3379d5cfa67ba1f1655e974a2a1a9",
+     "path": "notices/libnvat-static/crates/smallvec-1.16.2/LICENSE-MIT"
+    }
+   ],
+   "evidence": "version string embedded in libnvat panic/source paths",
+   "wheel_0_1_2_notices": "ATTRIBUTED_BY_NAME_MATCH"
+  },
+  {
+   "component": "unsafe-libyaml",
+   "ecosystem": "rust-crate",
+   "version": "0.2.11",
+   "version_status": "VERSION_PROVEN",
+   "license_declared": "MIT",
+   "source": "https://crates.io/crates/unsafe-libyaml/0.2.11",
+   "sha256": "673aac59facbab8a9007c7f6108d11f63b603f7cabff99fabf650fea5c32b861",
+   "checksum_verified_against_crates_io": true,
+   "license_files": [
+    {
+     "file": "LICENSE-MIT",
+     "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3",
+     "path": "notices/libnvat-static/crates/unsafe-libyaml-0.2.11/LICENSE-MIT"
+    }
+   ],
+   "evidence": "version string embedded in libnvat panic/source paths",
+   "wheel_0_1_2_notices": "NO_ATTRIBUTION_FOUND"
+  },
+  {
+   "component": "url",
+   "ecosystem": "rust-crate",
+   "version": "2.5.8",
+   "version_status": "VERSION_PROVEN",
+   "license_declared": "MIT OR Apache-2.0",
+   "source": "https://crates.io/crates/url/2.5.8",
+   "sha256": "ff67a8a4397373c3ef660812acab3268222035010ab8680ec4215f38ba3d0eed",
+   "checksum_verified_against_crates_io": true,
+   "license_files": [
+    {
+     "file": "LICENSE-APACHE",
+     "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+     "path": "notices/libnvat-static/crates/url-2.5.8/LICENSE-APACHE"
+    },
+    {
+     "file": "LICENSE-MIT",
+     "sha256": "b38f11f6096706e6de553dabe2a7ed142d59b6fa8c97e290c67496154745cdd5",
+     "path": "notices/libnvat-static/crates/url-2.5.8/LICENSE-MIT"
+    }
+   ],
+   "evidence": "version string embedded in libnvat panic/source paths",
+   "wheel_0_1_2_notices": "ATTRIBUTED_BY_NAME_MATCH"
+  },
+  {
+   "component": "uuid",
+   "ecosystem": "rust-crate",
+   "version": "1.27.0",
+   "version_status": "VERSION_PROVEN",
+   "license_declared": "Apache-2.0 OR MIT",
+   "source": "https://crates.io/crates/uuid/1.27.0",
+   "sha256": "97277d36b9c3ace13e58fa6e753f8b0bbbf302a18dd193240d70f9e29681059a",
+   "checksum_verified_against_crates_io": true,
+   "license_files": [
+    {
+     "file": "LICENSE-APACHE",
+     "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+     "path": "notices/libnvat-static/crates/uuid-1.27.0/LICENSE-APACHE"
+    },
+    {
+     "file": "LICENSE-MIT",
+     "sha256": "436bc5a105d8e57dcd8778730f3754f7bf39c14d2f530e4cde4bd2d17a83ec3d",
+     "path": "notices/libnvat-static/crates/uuid-1.27.0/LICENSE-MIT"
+    }
+   ],
+   "evidence": "version string embedded in libnvat panic/source paths",
+   "wheel_0_1_2_notices": "ATTRIBUTED_BY_NAME_MATCH"
+  },
+  {
+   "component": "wax",
+   "ecosystem": "rust-crate",
+   "version": "0.6.0",
+   "version_status": "VERSION_PROVEN",
+   "license_declared": "MIT",
+   "source": "https://crates.io/crates/wax/0.6.0",
+   "sha256": "8d12a78aa0bab22d2f26ed1a96df7ab58e8a93506a3e20adb47c51a93b4e1357",
+   "checksum_verified_against_crates_io": true,
+   "license_files": [
+    {
+     "file": "LICENSE",
+     "sha256": "8f71659370c5268d9a1dc962a46232540e8fca63462586d8efaa95aab492a208",
+     "path": "notices/libnvat-static/crates/wax-0.6.0/LICENSE"
+    }
+   ],
+   "evidence": "version string embedded in libnvat panic/source paths",
+   "wheel_0_1_2_notices": "NO_ATTRIBUTION_FOUND"
+  },
+  {
+   "component": "zerotrie",
+   "ecosystem": "rust-crate",
+   "version": "0.2.5",
+   "version_status": "VERSION_PROVEN",
+   "license_declared": "Unicode-3.0",
+   "source": "https://crates.io/crates/zerotrie/0.2.5",
+   "sha256": "4ea269c3bd32f0a32c321907a2ae912ba6f4649bb0fc764a15627e99a7095a3f",
+   "checksum_verified_against_crates_io": true,
+   "license_files": [
+    {
+     "file": "LICENSE",
+     "sha256": "f367c1b8e1aa262435251e442901da4607b4650e0e63a026f5044473ecfb90f2",
+     "path": "notices/libnvat-static/crates/zerotrie-0.2.5/LICENSE"
+    }
+   ],
+   "evidence": "version string embedded in libnvat panic/source paths",
+   "wheel_0_1_2_notices": "ATTRIBUTED_BY_NAME_MATCH"
+  },
+  {
+   "component": "zerovec",
+   "ecosystem": "rust-crate",
+   "version": "0.11.8",
+   "version_status": "VERSION_PROVEN",
+   "license_declared": "Unicode-3.0",
+   "source": "https://crates.io/crates/zerovec/0.11.8",
+   "sha256": "bb0464e17806c1d976d5cba29399c7f08e516e279e2ba493f63123b5fca67dd8",
+   "checksum_verified_against_crates_io": true,
+   "license_files": [
+    {
+     "file": "LICENSE",
+     "sha256": "f367c1b8e1aa262435251e442901da4607b4650e0e63a026f5044473ecfb90f2",
+     "path": "notices/libnvat-static/crates/zerovec-0.11.8/LICENSE"
+    }
+   ],
+   "evidence": "version string embedded in libnvat panic/source paths",
+   "wheel_0_1_2_notices": "ATTRIBUTED_BY_NAME_MATCH"
+  },
+  {
+   "component": "addr2line",
+   "ecosystem": "rust-std-or-toolchain",
+   "version": "VERSION_NOT_PROVEN",
+   "version_status": "VERSION_NOT_PROVEN",
+   "license_declared": "MIT OR Apache-2.0 (Rust standard library; per rust-lang COPYRIGHT at the toolchain commit)",
+   "source": "https://github.com/rust-lang/rust/tree/b940084d7eb6a299eb4bfeb8e34901bc051e7ac4",
+   "sha256": null,
+   "license_files": [
+    {
+     "file": "LICENSE-MIT",
+     "sha256": "b71bd43a069ca0641a9ecfe585ca7b3c53b5cc1608f8b68321168698e28b5ea1",
+     "path": "notices/libnvat-static/rust-std/LICENSE-MIT"
+    },
+    {
+     "file": "LICENSE-APACHE",
+     "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a",
+     "path": "notices/libnvat-static/rust-std/LICENSE-APACHE"
+    },
+    {
+     "file": "COPYRIGHT",
+     "sha256": "172020dbfd5b53a226dfde77616190a48dcff519b0bc0e6deb91a8450782c4af",
+     "path": "notices/libnvat-static/rust-std/COPYRIGHT"
+    }
+   ],
+   "evidence": "symbol/path in libnvat; toolchain rustc 1.99.0 (b940084d7) from .comment section",
+   "wheel_0_1_2_notices": "NO_ATTRIBUTION_FOUND"
+  },
+  {
+   "component": "adler2",
+   "ecosystem": "rust-std-or-toolchain",
+   "version": "VERSION_NOT_PROVEN",
+   "version_status": "VERSION_NOT_PROVEN",
+   "license_declared": "MIT OR Apache-2.0 (Rust standard library; per rust-lang COPYRIGHT at the toolchain commit)",
+   "source": "https://github.com/rust-lang/rust/tree/b940084d7eb6a299eb4bfeb8e34901bc051e7ac4",
+   "sha256": null,
+   "license_files": [
+    {
+     "file": "LICENSE-MIT",
+     "sha256": "b71bd43a069ca0641a9ecfe585ca7b3c53b5cc1608f8b68321168698e28b5ea1",
+     "path": "notices/libnvat-static/rust-std/LICENSE-MIT"
+    },
+    {
+     "file": "LICENSE-APACHE",
+     "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a",
+     "path": "notices/libnvat-static/rust-std/LICENSE-APACHE"
+    },
+    {
+     "file": "COPYRIGHT",
+     "sha256": "172020dbfd5b53a226dfde77616190a48dcff519b0bc0e6deb91a8450782c4af",
+     "path": "notices/libnvat-static/rust-std/COPYRIGHT"
+    }
+   ],
+   "evidence": "symbol/path in libnvat; toolchain rustc 1.99.0 (b940084d7) from .comment section",
+   "wheel_0_1_2_notices": "NO_ATTRIBUTION_FOUND"
+  },
+  {
+   "component": "alloc",
+   "ecosystem": "rust-std-or-toolchain",
+   "version": "VERSION_NOT_PROVEN",
+   "version_status": "VERSION_NOT_PROVEN",
+   "license_declared": "MIT OR Apache-2.0 (Rust standard library; per rust-lang COPYRIGHT at the toolchain commit)",
+   "source": "https://github.com/rust-lang/rust/tree/b940084d7eb6a299eb4bfeb8e34901bc051e7ac4",
+   "sha256": null,
+   "license_files": [
+    {
+     "file": "LICENSE-MIT",
+     "sha256": "b71bd43a069ca0641a9ecfe585ca7b3c53b5cc1608f8b68321168698e28b5ea1",
+     "path": "notices/libnvat-static/rust-std/LICENSE-MIT"
+    },
+    {
+     "file": "LICENSE-APACHE",
+     "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a",
+     "path": "notices/libnvat-static/rust-std/LICENSE-APACHE"
+    },
+    {
+     "file": "COPYRIGHT",
+     "sha256": "172020dbfd5b53a226dfde77616190a48dcff519b0bc0e6deb91a8450782c4af",
+     "path": "notices/libnvat-static/rust-std/COPYRIGHT"
+    }
+   ],
+   "evidence": "symbol/path in libnvat; toolchain rustc 1.99.0 (b940084d7) from .comment section",
+   "wheel_0_1_2_notices": "NO_ATTRIBUTION_FOUND"
+  },
+  {
+   "component": "block-buffer",
+   "ecosystem": "rust-crate",
+   "version": "VERSION_NOT_PROVEN",
+   "version_status": "VERSION_NOT_PROVEN",
+   "license_declared": null,
+   "license_envelope_over_compatible_versions": [
+    "MIT OR Apache-2.0"
+   ],
+   "license_over_all_published_versions": {
+    "MIT OR Apache-2.0": 29,
+    "MIT/Apache-2.0": 12
+   },
+   "source": "https://crates.io/crates/block-buffer",
+   "sha256": null,
+   "declared_by": [
+    "digest@0.10.7 ^0.10 (optional)"
+   ],
+   "candidate_versions_sample": [
+    "0.10.1",
+    "0.10.2",
+    "0.10.3",
+    "0.10.4"
+   ],
+   "n_compatible_versions": 4,
+   "license_files": [],
+   "evidence": "crate-root symbol in libnvat .symtab; expected from declared dependency (constraint check only, NOT a lockfile)",
+   "wheel_0_1_2_notices": "NAME_PRESENT"
+  },
+  {
+   "component": "bytecount",
+   "ecosystem": "rust-crate",
+   "version": "VERSION_NOT_PROVEN",
+   "version_status": "VERSION_NOT_PROVEN",
+   "license_declared": null,
+   "license_envelope_over_compatible_versions": [
+    "Apache-2.0/MIT"
+   ],
+   "license_over_all_published_versions": {
+    "Apache-2.0/MIT": 23
+   },
+   "source": "https://crates.io/crates/bytecount",
+   "sha256": null,
+   "declared_by": [
+    "jsonschema@0.29.1 ^0.6"
+   ],
+   "candidate_versions_sample": [
+    "0.6.0",
+    "0.6.2",
+    "0.6.3",
+    "0.6.4",
+    "0.6.7",
+    "0.6.8",
+    "0.6.9"
+   ],
+   "n_compatible_versions": 7,
+   "license_files": [],
+   "evidence": "crate-root symbol in libnvat .symtab; expected from declared dependency (constraint check only, NOT a lockfile)",
+   "wheel_0_1_2_notices": "ABSENT"
+  },
+  {
+   "component": "chacha20",
+   "ecosystem": "rust-crate",
+   "version": "VERSION_NOT_PROVEN",
+   "version_status": "VERSION_NOT_PROVEN",
+   "license_declared": null,
+   "license_envelope_over_compatible_versions": [
+    "MIT OR Apache-2.0"
+   ],
+   "license_over_all_published_versions": {
+    "MIT OR Apache-2.0": 19,
+    "Apache-2.0 OR MIT": 25,
+    "MIT/Apache-2.0": 1
+   },
+   "source": "https://crates.io/crates/chacha20",
+   "sha256": null,
+   "declared_by": [
+    "rand@0.10.3 ^0.10.0 (optional)"
+   ],
+   "candidate_versions_sample": [
+    "0.10.2"
+   ],
+   "n_compatible_versions": 1,
+   "license_files": [],
+   "evidence": "crate-root symbol in libnvat .symtab; expected from declared dependency (constraint check only, NOT a lockfile)",
+   "wheel_0_1_2_notices": "NAME_PRESENT"
+  },
+  {
+   "component": "compiler_builtins",
+   "ecosystem": "rust-std-or-toolchain",
+   "version": "VERSION_NOT_PROVEN",
+   "version_status": "VERSION_NOT_PROVEN",
+   "license_declared": "MIT OR Apache-2.0 (Rust standard library; per rust-lang COPYRIGHT at the toolchain commit)",
+   "source": "https://github.com/rust-lang/rust/tree/b940084d7eb6a299eb4bfeb8e34901bc051e7ac4",
+   "sha256": null,
+   "license_files": [
+    {
+     "file": "LICENSE-MIT",
+     "sha256": "b71bd43a069ca0641a9ecfe585ca7b3c53b5cc1608f8b68321168698e28b5ea1",
+     "path": "notices/libnvat-static/rust-std/LICENSE-MIT"
+    },
+    {
+     "file": "LICENSE-APACHE",
+     "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a",
+     "path": "notices/libnvat-static/rust-std/LICENSE-APACHE"
+    },
+    {
+     "file": "COPYRIGHT",
+     "sha256": "172020dbfd5b53a226dfde77616190a48dcff519b0bc0e6deb91a8450782c4af",
+     "path": "notices/libnvat-static/rust-std/COPYRIGHT"
+    }
+   ],
+   "evidence": "symbol/path in libnvat; toolchain rustc 1.99.0 (b940084d7) from .comment section",
+   "wheel_0_1_2_notices": "NO_ATTRIBUTION_FOUND"
+  },
+  {
+   "component": "constant_time_eq",
+   "ecosystem": "rust-crate",
+   "version": "VERSION_NOT_PROVEN",
+   "version_status": "VERSION_NOT_PROVEN",
+   "license_declared": null,
+   "license_envelope_over_compatible_versions": [
+    "CC0-1.0 OR MIT-0 OR Apache-2.0"
+   ],
+   "license_over_all_published_versions": {
+    "CC0-1.0 OR MIT-0 OR Apache-2.0": 12,
+    "CC0-1.0": 10
+   },
+   "source": "https://crates.io/crates/constant-time-eq",
+   "sha256": null,
+   "declared_by": [
+    "regorus@0.4.0 0.4.0 (optional)"
+   ],
+   "candidate_versions_sample": [
+    "0.4.0",
+    "0.4.1",
+    "0.4.2"
+   ],
+   "n_compatible_versions": 3,
+   "license_files": [],
+   "evidence": "crate-root symbol in libnvat .symtab; expected from declared dependency (constraint check only, NOT a lockfile)",
+   "wheel_0_1_2_notices": "ABSENT"
+  },
+  {
+   "component": "core",
+   "ecosystem": "rust-std-or-toolchain",
+   "version": "VERSION_NOT_PROVEN",
+   "version_status": "VERSION_NOT_PROVEN",
+   "license_declared": "MIT OR Apache-2.0 (Rust standard library; per rust-lang COPYRIGHT at the toolchain commit)",
+   "source": "https://github.com/rust-lang/rust/tree/b940084d7eb6a299eb4bfeb8e34901bc051e7ac4",
+   "sha256": null,
+   "license_files": [
+    {
+     "file": "LICENSE-MIT",
+     "sha256": "b71bd43a069ca0641a9ecfe585ca7b3c53b5cc1608f8b68321168698e28b5ea1",
+     "path": "notices/libnvat-static/rust-std/LICENSE-MIT"
+    },
+    {
+     "file": "LICENSE-APACHE",
+     "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a",
+     "path": "notices/libnvat-static/rust-std/LICENSE-APACHE"
+    },
+    {
+     "file": "COPYRIGHT",
+     "sha256": "172020dbfd5b53a226dfde77616190a48dcff519b0bc0e6deb91a8450782c4af",
+     "path": "notices/libnvat-static/rust-std/COPYRIGHT"
+    }
+   ],
+   "evidence": "symbol/path in libnvat; toolchain rustc 1.99.0 (b940084d7) from .comment section",
+   "wheel_0_1_2_notices": "NO_ATTRIBUTION_FOUND"
+  },
+  {
+   "component": "digest",
+   "ecosystem": "rust-crate",
+   "version": "VERSION_NOT_PROVEN",
+   "version_status": "VERSION_NOT_PROVEN",
+   "license_declared": null,
+   "license_envelope_over_compatible_versions": [
+    "MIT OR Apache-2.0"
+   ],
+   "license_over_all_published_versions": {
+    "MIT OR Apache-2.0": 43,
+    "MIT/Apache-2.0": 26
+   },
+   "source": "https://crates.io/crates/digest",
+   "sha256": null,
+   "declared_by": [
+    "sha2@0.10.9 ^0.10.7",
+    "hmac@0.12.1 ^0.10.3"
+   ],
+   "candidate_versions_sample": [
+    "0.10.3",
+    "0.10.4",
+    "0.10.5",
+    "0.10.6",
+    "0.10.7"
+   ],
+   "n_compatible_versions": 5,
+   "license_files": [],
+   "evidence": "crate-root symbol in libnvat .symtab; expected from declared dependency (constraint check only, NOT a lockfile)",
+   "wheel_0_1_2_notices": "NAME_PRESENT"
+  },
+  {
+   "component": "generic-array",
+   "ecosystem": "rust-crate",
+   "version": "VERSION_NOT_PROVEN",
+   "version_status": "VERSION_NOT_PROVEN",
+   "license_declared": null,
+   "license_envelope_over_compatible_versions": [],
+   "license_over_all_published_versions": {
+    "MIT": 72
+   },
+   "source": "https://crates.io/crates/generic-array",
+   "sha256": null,
+   "declared_by": [],
+   "candidate_versions_sample": [],
+   "n_compatible_versions": 0,
+   "license_files": [],
+   "evidence": "crate-root symbol in libnvat .symtab; expected from declared dependency (constraint check only, NOT a lockfile)",
+   "wheel_0_1_2_notices": "NAME_PRESENT"
+  },
+  {
+   "component": "getrandom",
+   "ecosystem": "rust-crate",
+   "version": "VERSION_NOT_PROVEN",
+   "version_status": "VERSION_NOT_PROVEN",
+   "license_declared": null,
+   "license_envelope_over_compatible_versions": [
+    "MIT OR Apache-2.0"
+   ],
+   "license_over_all_published_versions": {
+    "MIT OR Apache-2.0": 47,
+    "MIT/Apache-2.0": 1
+   },
+   "source": "https://crates.io/crates/getrandom",
+   "sha256": null,
+   "declared_by": [
+    "ahash@0.8.12 ^0.3.1 (optional)",
+    "rand@0.10.3 ^0.4.0 (optional)",
+    "uuid@1.27.0 ^0.4 (optional)"
+   ],
+   "candidate_versions_sample": [
+    "0.3.1",
+    "0.3.2",
+    "0.3.3",
+    "0.3.4",
+    "0.4.0",
+    "0.4.1",
+    "0.4.2",
+    "0.4.3"
+   ],
+   "n_compatible_versions": 8,
+   "license_files": [],
+   "evidence": "crate-root symbol in libnvat .symtab; expected from declared dependency (constraint check only, NOT a lockfile)",
+   "wheel_0_1_2_notices": "NAME_PRESENT"
+  },
+  {
+   "component": "gimli",
+   "ecosystem": "rust-std-or-toolchain",
+   "version": "VERSION_NOT_PROVEN",
+   "version_status": "VERSION_NOT_PROVEN",
+   "license_declared": "MIT OR Apache-2.0 (Rust standard library; per rust-lang COPYRIGHT at the toolchain commit)",
+   "source": "https://github.com/rust-lang/rust/tree/b940084d7eb6a299eb4bfeb8e34901bc051e7ac4",
+   "sha256": null,
+   "license_files": [
+    {
+     "file": "LICENSE-MIT",
+     "sha256": "b71bd43a069ca0641a9ecfe585ca7b3c53b5cc1608f8b68321168698e28b5ea1",
+     "path": "notices/libnvat-static/rust-std/LICENSE-MIT"
+    },
+    {
+     "file": "LICENSE-APACHE",
+     "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a",
+     "path": "notices/libnvat-static/rust-std/LICENSE-APACHE"
+    },
+    {
+     "file": "COPYRIGHT",
+     "sha256": "172020dbfd5b53a226dfde77616190a48dcff519b0bc0e6deb91a8450782c4af",
+     "path": "notices/libnvat-static/rust-std/COPYRIGHT"
+    }
+   ],
+   "evidence": "symbol/path in libnvat; toolchain rustc 1.99.0 (b940084d7) from .comment section",
+   "wheel_0_1_2_notices": "NO_ATTRIBUTION_FOUND"
+  },
+  {
+   "component": "hex",
+   "ecosystem": "rust-crate",
+   "version": "VERSION_NOT_PROVEN",
+   "version_status": "VERSION_NOT_PROVEN",
+   "license_declared": null,
+   "license_envelope_over_compatible_versions": [
+    "MIT OR Apache-2.0"
+   ],
+   "license_over_all_published_versions": {
+    "MIT OR Apache-2.0": 8,
+    "null": 1
+   },
+   "source": "https://crates.io/crates/hex",
+   "sha256": null,
+   "declared_by": [
+    "regorus@0.4.0 0.4.3 (optional)"
+   ],
+   "candidate_versions_sample": [
+    "0.4.3"
+   ],
+   "n_compatible_versions": 1,
+   "license_files": [],
+   "evidence": "crate-root symbol in libnvat .symtab; expected from declared dependency (constraint check only, NOT a lockfile)",
+   "wheel_0_1_2_notices": "NAME_PRESENT"
+  },
+  {
+   "component": "hmac",
+   "ecosystem": "rust-crate",
+   "version": "VERSION_NOT_PROVEN",
+   "version_status": "VERSION_NOT_PROVEN",
+   "license_declared": null,
+   "license_envelope_over_compatible_versions": [
+    "MIT OR Apache-2.0"
+   ],
+   "license_over_all_published_versions": {
+    "MIT OR Apache-2.0": 25,
+    "MIT/Apache-2.0": 13
+   },
+   "source": "https://crates.io/crates/hmac",
+   "sha256": null,
+   "declared_by": [
+    "regorus@0.4.0 0.12.1 (optional)"
+   ],
+   "candidate_versions_sample": [
+    "0.12.1"
+   ],
+   "n_compatible_versions": 1,
+   "license_files": [],
+   "evidence": "crate-root symbol in libnvat .symtab; expected from declared dependency (constraint check only, NOT a lockfile)",
+   "wheel_0_1_2_notices": "NAME_PRESENT"
+  },
+  {
+   "component": "icu_properties",
+   "ecosystem": "rust-crate",
+   "version": "VERSION_NOT_PROVEN",
+   "version_status": "VERSION_NOT_PROVEN",
+   "license_declared": null,
+   "license_envelope_over_compatible_versions": [
+    "Unicode-3.0"
+   ],
+   "license_over_all_published_versions": {
+    "Unicode-3.0": 12,
+    "non-standard": 9,
+    "Unicode-DFS-2016": 4
+   },
+   "source": "https://crates.io/crates/icu-properties",
+   "sha256": null,
+   "declared_by": [
+    "icu_normalizer@2.3.0 ~2.3.0 (optional)"
+   ],
+   "candidate_versions_sample": [
+    "2.3.0"
+   ],
+   "n_compatible_versions": 1,
+   "license_files": [],
+   "evidence": "crate-root symbol in libnvat .symtab; expected from declared dependency (constraint check only, NOT a lockfile)",
+   "wheel_0_1_2_notices": "NAME_PRESENT"
+  },
+  {
+   "component": "libc",
+   "ecosystem": "rust-crate",
+   "version": "VERSION_NOT_PROVEN",
+   "version_status": "VERSION_NOT_PROVEN",
+   "license_declared": null,
+   "license_envelope_over_compatible_versions": [
+    "MIT OR Apache-2.0"
+   ],
+   "license_over_all_published_versions": {
+    "MIT OR Apache-2.0": 151,
+    "MIT/Apache-2.0": 57
+   },
+   "source": "https://crates.io/crates/libc",
+   "sha256": null,
+   "declared_by": [
+    "parking_lot_core@0.9.12 ^0.2.95"
+   ],
+   "candidate_versions_sample": [
+    "0.2.95",
+    "0.2.96",
+    "0.2.97",
+    "0.2.98",
+    "0.2.99",
+    "0.2.100",
+    "0.2.101",
+    "0.2.102",
+    "0.2.103",
+    "0.2.104",
+    "0.2.105",
+    "0.2.106"
+   ],
+   "n_compatible_versions": 90,
+   "license_files": [],
+   "evidence": "crate-root symbol in libnvat .symtab; expected from declared dependency (constraint check only, NOT a lockfile)",
+   "wheel_0_1_2_notices": "NAME_PRESENT"
+  },
+  {
+   "component": "litemap",
+   "ecosystem": "rust-crate",
+   "version": "VERSION_NOT_PROVEN",
+   "version_status": "VERSION_NOT_PROVEN",
+   "license_declared": null,
+   "license_envelope_over_compatible_versions": [
+    "Unicode-3.0"
+   ],
+   "license_over_all_published_versions": {
+    "Unicode-3.0": 7,
+    "non-standard": 9,
+    "Unicode-DFS-2016": 4
+   },
+   "source": "https://crates.io/crates/litemap",
+   "sha256": null,
+   "declared_by": [
+    "icu_locale_core@2.3.0 ^0.8.0",
+    "zerotrie@0.2.5 ^0.8.0 (optional)"
+   ],
+   "candidate_versions_sample": [
+    "0.8.0",
+    "0.8.1",
+    "0.8.2",
+    "0.8.3"
+   ],
+   "n_compatible_versions": 4,
+   "license_files": [],
+   "evidence": "crate-root symbol in libnvat .symtab; expected from declared dependency (constraint check only, NOT a lockfile)",
+   "wheel_0_1_2_notices": "NAME_PRESENT"
+  },
+  {
+   "component": "lock_api",
+   "ecosystem": "rust-crate",
+   "version": "VERSION_NOT_PROVEN",
+   "version_status": "VERSION_NOT_PROVEN",
+   "license_declared": null,
+   "license_envelope_over_compatible_versions": [
+    "MIT OR Apache-2.0"
+   ],
+   "license_over_all_published_versions": {
+    "MIT OR Apache-2.0": 8,
+    "Apache-2.0/MIT": 19
+   },
+   "source": "https://crates.io/crates/lock-api",
+   "sha256": null,
+   "declared_by": [
+    "parking_lot@0.12.5 ^0.4.14"
+   ],
+   "candidate_versions_sample": [
+    "0.4.14"
+   ],
+   "n_compatible_versions": 1,
+   "license_files": [],
+   "evidence": "crate-root symbol in libnvat .symtab; expected from declared dependency (constraint check only, NOT a lockfile)",
+   "wheel_0_1_2_notices": "NAME_PRESENT"
+  },
+  {
+   "component": "md-5 (symbol root \"md5\")",
+   "ecosystem": "rust-crate",
+   "version": "VERSION_NOT_PROVEN",
+   "version_status": "VERSION_NOT_PROVEN",
+   "license_declared": null,
+   "license_envelope_over_compatible_versions": [
+    "MIT OR Apache-2.0"
+   ],
+   "license_over_all_published_versions": {
+    "Apache-2.0 OR MIT": 1,
+    "Apache-2.0/MIT": 17,
+    "MIT": 2
+   },
+   "source": "https://crates.io/crates/md-5",
+   "sha256": null,
+   "declared_by": [
+    "uuid@1.27.0 ^0.10 (optional)",
+    "regorus@0.4.0 0.10.6 (optional)"
+   ],
+   "candidate_versions_sample": [
+    "0.10.0",
+    "0.10.1",
+    "0.10.2",
+    "0.10.3",
+    "0.10.4",
+    "0.10.5",
+    "0.10.6"
+   ],
+   "n_compatible_versions": 7,
+   "license_files": [],
+   "evidence": "crate-root symbol in libnvat .symtab; expected from declared dependency (constraint check only, NOT a lockfile)",
+   "wheel_0_1_2_notices": "NAME_PRESENT"
+  },
+  {
+   "component": "miniz_oxide",
+   "ecosystem": "rust-std-or-toolchain",
+   "version": "VERSION_NOT_PROVEN",
+   "version_status": "VERSION_NOT_PROVEN",
+   "license_declared": "MIT OR Apache-2.0 (Rust standard library; per rust-lang COPYRIGHT at the toolchain commit)",
+   "source": "https://github.com/rust-lang/rust/tree/b940084d7eb6a299eb4bfeb8e34901bc051e7ac4",
+   "sha256": null,
+   "license_files": [
+    {
+     "file": "LICENSE-MIT",
+     "sha256": "b71bd43a069ca0641a9ecfe585ca7b3c53b5cc1608f8b68321168698e28b5ea1",
+     "path": "notices/libnvat-static/rust-std/LICENSE-MIT"
+    },
+    {
+     "file": "LICENSE-APACHE",
+     "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a",
+     "path": "notices/libnvat-static/rust-std/LICENSE-APACHE"
+    },
+    {
+     "file": "COPYRIGHT",
+     "sha256": "172020dbfd5b53a226dfde77616190a48dcff519b0bc0e6deb91a8450782c4af",
+     "path": "notices/libnvat-static/rust-std/COPYRIGHT"
+    }
+   ],
+   "evidence": "symbol/path in libnvat; toolchain rustc 1.99.0 (b940084d7) from .comment section",
+   "wheel_0_1_2_notices": "NO_ATTRIBUTION_FOUND"
+  },
+  {
+   "component": "num-traits",
+   "ecosystem": "rust-crate",
+   "version": "VERSION_NOT_PROVEN",
+   "version_status": "VERSION_NOT_PROVEN",
+   "license_declared": null,
+   "license_envelope_over_compatible_versions": [
+    "MIT OR Apache-2.0",
+    "MIT/Apache-2.0"
+   ],
+   "license_over_all_published_versions": {
+    "MIT OR Apache-2.0": 6,
+    "MIT/Apache-2.0": 26
+   },
+   "source": "https://crates.io/crates/num-traits",
+   "sha256": null,
+   "declared_by": [
+    "chrono@0.4.45 ^0.2",
+    "num-bigint@0.4.8 ^0.2.18",
+    "num-integer@0.1.47 ^0.2.11",
+    "num-rational@0.4.2 ^0.2.18"
+   ],
+   "candidate_versions_sample": [
+    "0.2.0",
+    "0.2.1",
+    "0.2.2",
+    "0.2.3",
+    "0.2.4",
+    "0.2.5",
+    "0.2.6",
+    "0.2.7",
+    "0.2.8",
+    "0.2.9",
+    "0.2.10",
+    "0.2.11"
+   ],
+   "n_compatible_versions": 20,
+   "license_files": [],
+   "evidence": "crate-root symbol in libnvat .symtab; expected from declared dependency (constraint check only, NOT a lockfile)",
+   "wheel_0_1_2_notices": "NAME_PRESENT"
+  },
+  {
+   "component": "object",
+   "ecosystem": "rust-std-or-toolchain",
+   "version": "VERSION_NOT_PROVEN",
+   "version_status": "VERSION_NOT_PROVEN",
+   "license_declared": "MIT OR Apache-2.0 (Rust standard library; per rust-lang COPYRIGHT at the toolchain commit)",
+   "source": "https://github.com/rust-lang/rust/tree/b940084d7eb6a299eb4bfeb8e34901bc051e7ac4",
+   "sha256": null,
+   "license_files": [
+    {
+     "file": "LICENSE-MIT",
+     "sha256": "b71bd43a069ca0641a9ecfe585ca7b3c53b5cc1608f8b68321168698e28b5ea1",
+     "path": "notices/libnvat-static/rust-std/LICENSE-MIT"
+    },
+    {
+     "file": "LICENSE-APACHE",
+     "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a",
+     "path": "notices/libnvat-static/rust-std/LICENSE-APACHE"
+    },
+    {
+     "file": "COPYRIGHT",
+     "sha256": "172020dbfd5b53a226dfde77616190a48dcff519b0bc0e6deb91a8450782c4af",
+     "path": "notices/libnvat-static/rust-std/COPYRIGHT"
+    }
+   ],
+   "evidence": "symbol/path in libnvat; toolchain rustc 1.99.0 (b940084d7) from .comment section",
+   "wheel_0_1_2_notices": "NO_ATTRIBUTION_FOUND"
+  },
+  {
+   "component": "panic_unwind",
+   "ecosystem": "rust-std-or-toolchain",
+   "version": "VERSION_NOT_PROVEN",
+   "version_status": "VERSION_NOT_PROVEN",
+   "license_declared": "MIT OR Apache-2.0 (Rust standard library; per rust-lang COPYRIGHT at the toolchain commit)",
+   "source": "https://github.com/rust-lang/rust/tree/b940084d7eb6a299eb4bfeb8e34901bc051e7ac4",
+   "sha256": null,
+   "license_files": [
+    {
+     "file": "LICENSE-MIT",
+     "sha256": "b71bd43a069ca0641a9ecfe585ca7b3c53b5cc1608f8b68321168698e28b5ea1",
+     "path": "notices/libnvat-static/rust-std/LICENSE-MIT"
+    },
+    {
+     "file": "LICENSE-APACHE",
+     "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a",
+     "path": "notices/libnvat-static/rust-std/LICENSE-APACHE"
+    },
+    {
+     "file": "COPYRIGHT",
+     "sha256": "172020dbfd5b53a226dfde77616190a48dcff519b0bc0e6deb91a8450782c4af",
+     "path": "notices/libnvat-static/rust-std/COPYRIGHT"
+    }
+   ],
+   "evidence": "symbol/path in libnvat; toolchain rustc 1.99.0 (b940084d7) from .comment section",
+   "wheel_0_1_2_notices": "NO_ATTRIBUTION_FOUND"
+  },
+  {
+   "component": "potential_utf",
+   "ecosystem": "rust-crate",
+   "version": "VERSION_NOT_PROVEN",
+   "version_status": "VERSION_NOT_PROVEN",
+   "license_declared": null,
+   "license_envelope_over_compatible_versions": [
+    "Unicode-3.0"
+   ],
+   "license_over_all_published_versions": {
+    "Unicode-3.0": 6
+   },
+   "source": "https://crates.io/crates/potential-utf",
+   "sha256": null,
+   "declared_by": [
+    "icu_collections@2.3.0 ^0.1.3"
+   ],
+   "candidate_versions_sample": [
+    "0.1.3",
+    "0.1.4",
+    "0.1.5",
+    "0.1.6"
+   ],
+   "n_compatible_versions": 4,
+   "license_files": [],
+   "evidence": "crate-root symbol in libnvat .symtab; expected from declared dependency (constraint check only, NOT a lockfile)",
+   "wheel_0_1_2_notices": "NAME_PRESENT"
+  },
+  {
+   "component": "rand_core",
+   "ecosystem": "rust-crate",
+   "version": "VERSION_NOT_PROVEN",
+   "version_status": "VERSION_NOT_PROVEN",
+   "license_declared": null,
+   "license_envelope_over_compatible_versions": [
+    "MIT OR Apache-2.0"
+   ],
+   "license_over_all_published_versions": {
+    "MIT/Apache-2.0": 17,
+    "MIT OR Apache-2.0": 25
+   },
+   "source": "https://crates.io/crates/rand-core",
+   "sha256": null,
+   "declared_by": [
+    "rand@0.10.3 ^0.10.0",
+    "rand@0.9.5 ^0.9.0",
+    "rand_chacha@0.9.0 ^0.9.0",
+    "chacha20@0.10.2 ^0.10 (optional)"
+   ],
+   "candidate_versions_sample": [
+    "0.9.0",
+    "0.9.1",
+    "0.9.2",
+    "0.9.3",
+    "0.9.4",
+    "0.9.5",
+    "0.10.0",
+    "0.10.1"
+   ],
+   "n_compatible_versions": 8,
+   "license_files": [],
+   "evidence": "crate-root symbol in libnvat .symtab; expected from declared dependency (constraint check only, NOT a lockfile)",
+   "wheel_0_1_2_notices": "NAME_PRESENT"
+  },
+  {
+   "component": "rustc-demangle",
+   "ecosystem": "rust-std-or-toolchain",
+   "version": "VERSION_NOT_PROVEN",
+   "version_status": "VERSION_NOT_PROVEN",
+   "license_declared": "MIT OR Apache-2.0 (Rust standard library; per rust-lang COPYRIGHT at the toolchain commit)",
+   "source": "https://github.com/rust-lang/rust/tree/b940084d7eb6a299eb4bfeb8e34901bc051e7ac4",
+   "sha256": null,
+   "license_files": [
+    {
+     "file": "LICENSE-MIT",
+     "sha256": "b71bd43a069ca0641a9ecfe585ca7b3c53b5cc1608f8b68321168698e28b5ea1",
+     "path": "notices/libnvat-static/rust-std/LICENSE-MIT"
+    },
+    {
+     "file": "LICENSE-APACHE",
+     "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a",
+     "path": "notices/libnvat-static/rust-std/LICENSE-APACHE"
+    },
+    {
+     "file": "COPYRIGHT",
+     "sha256": "172020dbfd5b53a226dfde77616190a48dcff519b0bc0e6deb91a8450782c4af",
+     "path": "notices/libnvat-static/rust-std/COPYRIGHT"
+    }
+   ],
+   "evidence": "symbol/path in libnvat; toolchain rustc 1.99.0 (b940084d7) from .comment section",
+   "wheel_0_1_2_notices": "NO_ATTRIBUTION_FOUND"
+  },
+  {
+   "component": "ryu",
+   "ecosystem": "rust-crate",
+   "version": "VERSION_NOT_PROVEN",
+   "version_status": "VERSION_NOT_PROVEN",
+   "license_declared": null,
+   "license_envelope_over_compatible_versions": [
+    "Apache-2.0 OR BSL-1.0"
+   ],
+   "license_over_all_published_versions": {
+    "Apache-2.0 OR BSL-1.0": 27,
+    "Apache-2.0": 5,
+    "MIT/Apache-2.0": 1,
+    "BSD-2-Clause AND BSL-1.0": 2
+   },
+   "source": "https://crates.io/crates/ryu",
+   "sha256": null,
+   "declared_by": [
+    "serde_yaml@0.9.34+deprecated ^1.0"
+   ],
+   "candidate_versions_sample": [
+    "1.0.0",
+    "1.0.1",
+    "1.0.2",
+    "1.0.3",
+    "1.0.4",
+    "1.0.5",
+    "1.0.6",
+    "1.0.7",
+    "1.0.8",
+    "1.0.9",
+    "1.0.10",
+    "1.0.11"
+   ],
+   "n_compatible_versions": 24,
+   "license_files": [],
+   "evidence": "crate-root symbol in libnvat .symtab; expected from declared dependency (constraint check only, NOT a lockfile)",
+   "wheel_0_1_2_notices": "NAME_PRESENT"
+  },
+  {
+   "component": "std",
+   "ecosystem": "rust-std-or-toolchain",
+   "version": "VERSION_NOT_PROVEN",
+   "version_status": "VERSION_NOT_PROVEN",
+   "license_declared": "MIT OR Apache-2.0 (Rust standard library; per rust-lang COPYRIGHT at the toolchain commit)",
+   "source": "https://github.com/rust-lang/rust/tree/b940084d7eb6a299eb4bfeb8e34901bc051e7ac4",
+   "sha256": null,
+   "license_files": [
+    {
+     "file": "LICENSE-MIT",
+     "sha256": "b71bd43a069ca0641a9ecfe585ca7b3c53b5cc1608f8b68321168698e28b5ea1",
+     "path": "notices/libnvat-static/rust-std/LICENSE-MIT"
+    },
+    {
+     "file": "LICENSE-APACHE",
+     "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a",
+     "path": "notices/libnvat-static/rust-std/LICENSE-APACHE"
+    },
+    {
+     "file": "COPYRIGHT",
+     "sha256": "172020dbfd5b53a226dfde77616190a48dcff519b0bc0e6deb91a8450782c4af",
+     "path": "notices/libnvat-static/rust-std/COPYRIGHT"
+    }
+   ],
+   "evidence": "symbol/path in libnvat; toolchain rustc 1.99.0 (b940084d7) from .comment section",
+   "wheel_0_1_2_notices": "NO_ATTRIBUTION_FOUND"
+  },
+  {
+   "component": "std_detect",
+   "ecosystem": "rust-std-or-toolchain",
+   "version": "VERSION_NOT_PROVEN",
+   "version_status": "VERSION_NOT_PROVEN",
+   "license_declared": "MIT OR Apache-2.0 (Rust standard library; per rust-lang COPYRIGHT at the toolchain commit)",
+   "source": "https://github.com/rust-lang/rust/tree/b940084d7eb6a299eb4bfeb8e34901bc051e7ac4",
+   "sha256": null,
+   "license_files": [
+    {
+     "file": "LICENSE-MIT",
+     "sha256": "b71bd43a069ca0641a9ecfe585ca7b3c53b5cc1608f8b68321168698e28b5ea1",
+     "path": "notices/libnvat-static/rust-std/LICENSE-MIT"
+    },
+    {
+     "file": "LICENSE-APACHE",
+     "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a",
+     "path": "notices/libnvat-static/rust-std/LICENSE-APACHE"
+    },
+    {
+     "file": "COPYRIGHT",
+     "sha256": "172020dbfd5b53a226dfde77616190a48dcff519b0bc0e6deb91a8450782c4af",
+     "path": "notices/libnvat-static/rust-std/COPYRIGHT"
+    }
+   ],
+   "evidence": "symbol/path in libnvat; toolchain rustc 1.99.0 (b940084d7) from .comment section",
+   "wheel_0_1_2_notices": "NO_ATTRIBUTION_FOUND"
+  },
+  {
+   "component": "tinystr",
+   "ecosystem": "rust-crate",
+   "version": "VERSION_NOT_PROVEN",
+   "version_status": "VERSION_NOT_PROVEN",
+   "license_declared": null,
+   "license_envelope_over_compatible_versions": [
+    "Unicode-3.0"
+   ],
+   "license_over_all_published_versions": {
+    "Unicode-3.0": 6,
+    "non-standard": 6,
+    "Unicode-DFS-2016": 4,
+    "Apache-2.0/MIT": 20
+   },
+   "source": "https://crates.io/crates/tinystr",
+   "sha256": null,
+   "declared_by": [
+    "icu_locale_core@2.3.0 ^0.8.4"
+   ],
+   "candidate_versions_sample": [
+    "0.8.4"
+   ],
+   "n_compatible_versions": 1,
+   "license_files": [],
+   "evidence": "crate-root symbol in libnvat .symtab; expected from declared dependency (constraint check only, NOT a lockfile)",
+   "wheel_0_1_2_notices": "NAME_PRESENT"
+  },
+  {
+   "component": "typenum",
+   "ecosystem": "rust-crate",
+   "version": "VERSION_NOT_PROVEN",
+   "version_status": "VERSION_NOT_PROVEN",
+   "license_declared": null,
+   "license_envelope_over_compatible_versions": [],
+   "license_over_all_published_versions": {
+    "MIT OR Apache-2.0": 9,
+    "MIT/Apache-2.0": 25
+   },
+   "source": "https://crates.io/crates/typenum",
+   "sha256": null,
+   "declared_by": [],
+   "candidate_versions_sample": [],
+   "n_compatible_versions": 0,
+   "license_files": [],
+   "evidence": "crate-root symbol in libnvat .symtab; expected from declared dependency (constraint check only, NOT a lockfile)",
+   "wheel_0_1_2_notices": "NAME_PRESENT"
+  },
+  {
+   "component": "utf8_iter",
+   "ecosystem": "rust-crate",
+   "version": "VERSION_NOT_PROVEN",
+   "version_status": "VERSION_NOT_PROVEN",
+   "license_declared": null,
+   "license_envelope_over_compatible_versions": [
+    "Apache-2.0 OR MIT"
+   ],
+   "license_over_all_published_versions": {
+    "Apache-2.0 OR MIT": 5
+   },
+   "source": "https://crates.io/crates/utf8-iter",
+   "sha256": null,
+   "declared_by": [
+    "icu_collections@2.3.0 ^1.0.2",
+    "icu_normalizer@2.3.0 ^1.0.2 (optional)",
+    "idna@1.1.0 ^1.0.4"
+   ],
+   "candidate_versions_sample": [
+    "1.0.2",
+    "1.0.3",
+    "1.0.4"
+   ],
+   "n_compatible_versions": 3,
+   "license_files": [],
+   "evidence": "crate-root symbol in libnvat .symtab; expected from declared dependency (constraint check only, NOT a lockfile)",
+   "wheel_0_1_2_notices": "NAME_PRESENT"
+  },
+  {
+   "component": "uuid-simd",
+   "ecosystem": "rust-crate",
+   "version": "VERSION_NOT_PROVEN",
+   "version_status": "VERSION_NOT_PROVEN",
+   "license_declared": null,
+   "license_envelope_over_compatible_versions": [
+    "MIT"
+   ],
+   "license_over_all_published_versions": {
+    "MIT": 12
+   },
+   "source": "https://crates.io/crates/uuid-simd",
+   "sha256": null,
+   "declared_by": [
+    "jsonschema@0.29.1 ^0.8"
+   ],
+   "candidate_versions_sample": [
+    "0.8.0"
+   ],
+   "n_compatible_versions": 1,
+   "license_files": [],
+   "evidence": "crate-root symbol in libnvat .symtab; expected from declared dependency (constraint check only, NOT a lockfile)",
+   "wheel_0_1_2_notices": "ABSENT"
+  },
+  {
+   "component": "writeable",
+   "ecosystem": "rust-crate",
+   "version": "VERSION_NOT_PROVEN",
+   "version_status": "VERSION_NOT_PROVEN",
+   "license_declared": null,
+   "license_envelope_over_compatible_versions": [
+    "Unicode-3.0"
+   ],
+   "license_over_all_published_versions": {
+    "Unicode-3.0": 6,
+    "non-standard": 7,
+    "Unicode-DFS-2016": 4
+   },
+   "source": "https://crates.io/crates/writeable",
+   "sha256": null,
+   "declared_by": [
+    "icu_locale_core@2.3.0 ^0.6.4",
+    "icu_provider@2.3.1 ^0.6.4 (optional)"
+   ],
+   "candidate_versions_sample": [
+    "0.6.4"
+   ],
+   "n_compatible_versions": 1,
+   "license_files": [],
+   "evidence": "crate-root symbol in libnvat .symtab; expected from declared dependency (constraint check only, NOT a lockfile)",
+   "wheel_0_1_2_notices": "NAME_PRESENT"
+  },
+  {
+   "component": "yoke",
+   "ecosystem": "rust-crate",
+   "version": "VERSION_NOT_PROVEN",
+   "version_status": "VERSION_NOT_PROVEN",
+   "license_declared": null,
+   "license_envelope_over_compatible_versions": [
+    "Unicode-3.0"
+   ],
+   "license_over_all_published_versions": {
+    "Unicode-3.0": 6,
+    "non-standard": 14,
+    "Unicode-DFS-2016": 4
+   },
+   "source": "https://crates.io/crates/yoke",
+   "sha256": null,
+   "declared_by": [
+    "icu_collections@2.3.0 ^0.8.3",
+    "icu_provider@2.3.1 ^0.8.3",
+    "zerotrie@0.2.5 ^0.8.3 (optional)",
+    "zerovec@0.11.8 ^0.8.3 (optional)"
+   ],
+   "candidate_versions_sample": [
+    "0.8.3"
+   ],
+   "n_compatible_versions": 1,
+   "license_files": [],
+   "evidence": "crate-root symbol in libnvat .symtab; expected from declared dependency (constraint check only, NOT a lockfile)",
+   "wheel_0_1_2_notices": "NAME_PRESENT"
+  },
+  {
+   "component": "zerofrom",
+   "ecosystem": "rust-crate",
+   "version": "VERSION_NOT_PROVEN",
+   "version_status": "VERSION_NOT_PROVEN",
+   "license_declared": null,
+   "license_envelope_over_compatible_versions": [
+    "Unicode-3.0"
+   ],
+   "license_over_all_published_versions": {
+    "Unicode-3.0": 5,
+    "non-standard": 2,
+    "Unicode-DFS-2016": 2
+   },
+   "source": "https://crates.io/crates/zerofrom",
+   "sha256": null,
+   "declared_by": [
+    "icu_collections@2.3.0 ^0.1.6",
+    "icu_provider@2.3.1 ^0.1.6",
+    "zerotrie@0.2.5 ^0.1.6 (optional)",
+    "zerovec@0.11.8 ^0.1.6",
+    "yoke@0.8.3 ^0.1.6 (optional)"
+   ],
+   "candidate_versions_sample": [
+    "0.1.6",
+    "0.1.7",
+    "0.1.8"
+   ],
+   "n_compatible_versions": 3,
+   "license_files": [],
+   "evidence": "crate-root symbol in libnvat .symtab; expected from declared dependency (constraint check only, NOT a lockfile)",
+   "wheel_0_1_2_notices": "NAME_PRESENT"
+  },
+  {
+   "component": "zmij",
+   "ecosystem": "rust-crate",
+   "version": "VERSION_NOT_PROVEN",
+   "version_status": "VERSION_NOT_PROVEN",
+   "license_declared": null,
+   "license_envelope_over_compatible_versions": [
+    "MIT"
+   ],
+   "license_over_all_published_versions": {
+    "MIT": 37
+   },
+   "source": "https://crates.io/crates/zmij",
+   "sha256": null,
+   "declared_by": [
+    "serde_json@1.0.151 ^1.0"
+   ],
+   "candidate_versions_sample": [
+    "1.0.0",
+    "1.0.1",
+    "1.0.2",
+    "1.0.3",
+    "1.0.4",
+    "1.0.5",
+    "1.0.6",
+    "1.0.7",
+    "1.0.8",
+    "1.0.9",
+    "1.0.10",
+    "1.0.11"
+   ],
+   "n_compatible_versions": 24,
+   "license_files": [],
+   "evidence": "crate-root symbol in libnvat .symtab; expected from declared dependency (constraint check only, NOT a lockfile)",
+   "wheel_0_1_2_notices": "NAME_PRESENT"
+  },
+  {
+   "component": "pori",
+   "ecosystem": "rust-crate",
+   "version": "VERSION_NOT_PROVEN",
+   "version_status": "VERSION_NOT_PROVEN",
+   "license_declared": "MIT (crates.io, candidate versions)",
+   "source": "https://crates.io/crates/pori",
+   "sha256": null,
+   "declared_by": [
+    "wax@0.6.0 =0.0.0"
+   ],
+   "license_files": [],
+   "evidence": "crate-root symbol in libnvat .symtab (initially misclassified as C++ in an earlier pass; corrected here); wax 0.6.0 declares =0.0.0",
+   "wheel_0_1_2_notices": "NO_ATTRIBUTION_FOUND"
+  },
+  {
+   "component": "borrow-or-share",
+   "ecosystem": "rust-crate",
+   "version": "VERSION_NOT_PROVEN",
+   "version_status": "VERSION_NOT_PROVEN",
+   "license_declared": null,
+   "license_envelope_over_compatible_versions": [
+    "CC0-1.0",
+    "CC0-1.0 OR MIT",
+    "MIT-0"
+   ],
+   "source": "https://crates.io/crates/borrow-or-share",
+   "sha256": null,
+   "declared_by": [
+    "fluent-uri@0.3.2 ^0.2"
+   ],
+   "license_files": [],
+   "evidence": "PRECAUTIONARY: non-optional dependency declared by a proven crate; not observed in the binary (may be inlined); second-level dependencies not explored",
+   "wheel_0_1_2_notices": "ABSENT"
+  },
+  {
+   "component": "cfg-if",
+   "ecosystem": "rust-crate",
+   "version": "VERSION_NOT_PROVEN",
+   "version_status": "VERSION_NOT_PROVEN",
+   "license_declared": null,
+   "license_envelope_over_compatible_versions": [
+    "MIT OR Apache-2.0",
+    "MIT/Apache-2.0"
+   ],
+   "source": "https://crates.io/crates/cfg-if",
+   "sha256": null,
+   "declared_by": [
+    "ahash@0.8.12 ^1.0",
+    "parking_lot_core@0.9.12 ^1.0.0",
+    "sha2@0.10.9 ^1.0"
+   ],
+   "license_files": [],
+   "evidence": "PRECAUTIONARY: non-optional dependency declared by a proven crate; not observed in the binary (may be inlined); second-level dependencies not explored",
+   "wheel_0_1_2_notices": "NAME_PRESENT"
+  },
+  {
+   "component": "cpufeatures",
+   "ecosystem": "rust-crate",
+   "version": "VERSION_NOT_PROVEN",
+   "version_status": "VERSION_NOT_PROVEN",
+   "license_declared": null,
+   "license_envelope_over_compatible_versions": [
+    "MIT OR Apache-2.0"
+   ],
+   "source": "https://crates.io/crates/cpufeatures",
+   "sha256": null,
+   "declared_by": [
+    "sha2@0.10.9 ^0.2"
+   ],
+   "license_files": [],
+   "evidence": "PRECAUTIONARY: non-optional dependency declared by a proven crate; not observed in the binary (may be inlined); second-level dependencies not explored",
+   "wheel_0_1_2_notices": "NAME_PRESENT"
+  },
+  {
+   "component": "either",
+   "ecosystem": "rust-crate",
+   "version": "VERSION_NOT_PROVEN",
+   "version_status": "VERSION_NOT_PROVEN",
+   "license_declared": null,
+   "license_envelope_over_compatible_versions": [
+    "MIT OR Apache-2.0",
+    "MIT/Apache-2.0"
+   ],
+   "source": "https://crates.io/crates/either",
+   "sha256": null,
+   "declared_by": [
+    "itertools@0.11.0 ^1.0"
+   ],
+   "license_files": [],
+   "evidence": "PRECAUTIONARY: non-optional dependency declared by a proven crate; not observed in the binary (may be inlined); second-level dependencies not explored",
+   "wheel_0_1_2_notices": "NAME_PRESENT"
+  },
+  {
+   "component": "equivalent",
+   "ecosystem": "rust-crate",
+   "version": "VERSION_NOT_PROVEN",
+   "version_status": "VERSION_NOT_PROVEN",
+   "license_declared": null,
+   "license_envelope_over_compatible_versions": [
+    "Apache-2.0 OR MIT"
+   ],
+   "source": "https://crates.io/crates/equivalent",
+   "sha256": null,
+   "declared_by": [
+    "indexmap@2.14.2 ^1.0"
+   ],
+   "license_files": [],
+   "evidence": "PRECAUTIONARY: non-optional dependency declared by a proven crate; not observed in the binary (may be inlined); second-level dependencies not explored",
+   "wheel_0_1_2_notices": "NAME_PRESENT"
+  },
+  {
+   "component": "idna-adapter",
+   "ecosystem": "rust-crate",
+   "version": "VERSION_NOT_PROVEN",
+   "version_status": "VERSION_NOT_PROVEN",
+   "license_declared": null,
+   "license_envelope_over_compatible_versions": [
+    "Apache-2.0 OR MIT"
+   ],
+   "source": "https://crates.io/crates/idna-adapter",
+   "sha256": null,
+   "declared_by": [
+    "idna@1.1.0 ^1"
+   ],
+   "license_files": [],
+   "evidence": "PRECAUTIONARY: non-optional dependency declared by a proven crate; not observed in the binary (may be inlined); second-level dependencies not explored",
+   "wheel_0_1_2_notices": "ABSENT"
+  },
+  {
+   "component": "log",
+   "ecosystem": "rust-crate",
+   "version": "VERSION_NOT_PROVEN",
+   "version_status": "VERSION_NOT_PROVEN",
+   "license_declared": null,
+   "license_envelope_over_compatible_versions": [
+    "MIT OR Apache-2.0"
+   ],
+   "source": "https://crates.io/crates/log",
+   "sha256": null,
+   "declared_by": [
+    "iana-time-zone@0.1.65 ^0.4.14"
+   ],
+   "license_files": [],
+   "evidence": "PRECAUTIONARY: non-optional dependency declared by a proven crate; not observed in the binary (may be inlined); second-level dependencies not explored",
+   "wheel_0_1_2_notices": "NAME_PRESENT"
+  },
+  {
+   "component": "minimal-lexical",
+   "ecosystem": "rust-crate",
+   "version": "VERSION_NOT_PROVEN",
+   "version_status": "VERSION_NOT_PROVEN",
+   "license_declared": null,
+   "license_envelope_over_compatible_versions": [
+    "MIT/Apache-2.0"
+   ],
+   "source": "https://crates.io/crates/minimal-lexical",
+   "sha256": null,
+   "declared_by": [
+    "nom@7.1.3 ^0.2.0"
+   ],
+   "license_files": [],
+   "evidence": "PRECAUTIONARY: non-optional dependency declared by a proven crate; not observed in the binary (may be inlined); second-level dependencies not explored",
+   "wheel_0_1_2_notices": "ABSENT"
+  },
+  {
+   "component": "num",
+   "ecosystem": "rust-crate",
+   "version": "VERSION_NOT_PROVEN",
+   "version_status": "VERSION_NOT_PROVEN",
+   "license_declared": null,
+   "license_envelope_over_compatible_versions": [
+    "MIT OR Apache-2.0"
+   ],
+   "source": "https://crates.io/crates/num",
+   "sha256": null,
+   "declared_by": [
+    "fraction@0.15.4 ^0.4.3"
+   ],
+   "license_files": [],
+   "evidence": "PRECAUTIONARY: non-optional dependency declared by a proven crate; not observed in the binary (may be inlined); second-level dependencies not explored",
+   "wheel_0_1_2_notices": "ABSENT"
+  },
+  {
+   "component": "num-cmp",
+   "ecosystem": "rust-crate",
+   "version": "VERSION_NOT_PROVEN",
+   "version_status": "VERSION_NOT_PROVEN",
+   "license_declared": null,
+   "license_envelope_over_compatible_versions": [
+    "MIT/Apache-2.0"
+   ],
+   "source": "https://crates.io/crates/num-cmp",
+   "sha256": null,
+   "declared_by": [
+    "jsonschema@0.29.1 ^0.1"
+   ],
+   "license_files": [],
+   "evidence": "PRECAUTIONARY: non-optional dependency declared by a proven crate; not observed in the binary (may be inlined); second-level dependencies not explored",
+   "wheel_0_1_2_notices": "ABSENT"
+  },
+  {
+   "component": "phf",
+   "ecosystem": "rust-crate",
+   "version": "VERSION_NOT_PROVEN",
+   "version_status": "VERSION_NOT_PROVEN",
+   "license_declared": null,
+   "license_envelope_over_compatible_versions": [
+    "MIT"
+   ],
+   "source": "https://crates.io/crates/phf",
+   "sha256": null,
+   "declared_by": [
+    "chrono-tz@0.10.4 ^0.12"
+   ],
+   "license_files": [],
+   "evidence": "PRECAUTIONARY: non-optional dependency declared by a proven crate; not observed in the binary (may be inlined); second-level dependencies not explored",
+   "wheel_0_1_2_notices": "ABSENT"
+  },
+  {
+   "component": "zerocopy",
+   "ecosystem": "rust-crate",
+   "version": "VERSION_NOT_PROVEN",
+   "version_status": "VERSION_NOT_PROVEN",
+   "license_declared": null,
+   "license_envelope_over_compatible_versions": [
+    "BSD-2-Clause OR Apache-2.0 OR MIT"
+   ],
+   "source": "https://crates.io/crates/zerocopy",
+   "sha256": null,
+   "declared_by": [
+    "ahash@0.8.12 ^0.8.24",
+    "ppv-lite86@0.2.21 ^0.8.23"
+   ],
+   "license_files": [],
+   "evidence": "PRECAUTIONARY: non-optional dependency declared by a proven crate; not observed in the binary (may be inlined); second-level dependencies not explored",
+   "wheel_0_1_2_notices": "NAME_PRESENT"
+  },
+  {
+   "component": "jwt-cpp",
+   "ecosystem": "c++/source-pin",
+   "version": "v0.7.1",
+   "version_status": "VERSION_PINNED_BY_SOURCE",
+   "license_declared": "MIT",
+   "source": "https://github.com/Thalhammer/jwt-cpp/tree/v0.7.1",
+   "sha256": null,
+   "license_files": [
+    {
+     "file": "jwt-cpp-v0.7.1-LICENSE",
+     "sha256": "35c2d7d6824a1e1ed2b266ec334b7862726ae593855c3cfa68b952bb75f082c4",
+     "path": "notices/libnvat-static/cxx/jwt-cpp-v0.7.1-LICENSE"
+    }
+   ],
+   "evidence": "libnvat (CMake FetchContent GIT_TAG v0.7.1, pinned in NVIDIA source commit 9d12801c)",
+   "wheel_0_1_2_notices": "NO_ATTRIBUTION_FOUND"
+  },
+  {
+   "component": "picojson",
+   "ecosystem": "c++/source-pin",
+   "version": "bundled in jwt-cpp v0.7.1",
+   "version_status": "VERSION_PINNED_BY_SOURCE",
+   "license_declared": "BSD-2-Clause (Cybozu Labs, Kazuho Oku)",
+   "source": "https://github.com/Thalhammer/jwt-cpp/blob/v0.7.1/include/picojson/picojson.h",
+   "sha256": null,
+   "license_files": [
+    {
+     "file": "jwt-cpp-v0.7.1-picojson.h.head",
+     "sha256": "eecfb89d1a72ab38a20322e4f959210c432167350fc84956856d94dfe6e4a526",
+     "path": "notices/libnvat-static/cxx/jwt-cpp-v0.7.1-picojson.h.head"
+    }
+   ],
+   "evidence": "libnvat symbol \"picojson\"; license = file header only",
+   "wheel_0_1_2_notices": "NO_ATTRIBUTION_FOUND"
+  },
+  {
+   "component": "nlohmann/json",
+   "ecosystem": "c++/source-pin",
+   "version": "3.12.0",
+   "version_status": "VERSION_PINNED_BY_SOURCE",
+   "license_declared": "MIT",
+   "source": "https://github.com/nlohmann/json/releases/tag/v3.12.0",
+   "sha256": null,
+   "license_files": [
+    {
+     "file": "nlohmann-json-3.12.0-LICENSE.MIT",
+     "sha256": "46a65cffd1ea955132d95a8dd921640714a8d6b537d2e4e482d31145ae95b603",
+     "path": "notices/libnvat-static/cxx/nlohmann-json-3.12.0-LICENSE.MIT"
+    }
+   ],
+   "evidence": "libnvat and nvattest (CMake pin)",
+   "wheel_0_1_2_notices": "ATTRIBUTED (nvattest section of NATIVE_LIBRARY_NOTICES.txt)"
+  },
+  {
+   "component": "fmt",
+   "ecosystem": "c++/source-pin",
+   "version": "10.2.1",
+   "version_status": "VERSION_PINNED_BY_SOURCE",
+   "license_declared": "MIT (+ optional binary exception)",
+   "source": "https://github.com/fmtlib/fmt/tree/10.2.1",
+   "sha256": null,
+   "license_files": [
+    {
+     "file": "fmt-10.2.1-LICENSE",
+     "sha256": "07580f2a3b35709ce703d523f447b242f6dfec7582a8c0df102c7fa2849375f8",
+     "path": "notices/libnvat-static/cxx/fmt-10.2.1-LICENSE"
+    }
+   ],
+   "evidence": "libnvat and nvattest (CMake pin)",
+   "wheel_0_1_2_notices": "ATTRIBUTED (nvattest section of NATIVE_LIBRARY_NOTICES.txt)"
+  },
+  {
+   "component": "spdlog",
+   "ecosystem": "c++/source-pin",
+   "version": "v1.14.1",
+   "version_status": "VERSION_PINNED_BY_SOURCE",
+   "license_declared": "MIT",
+   "source": "https://github.com/gabime/spdlog/tree/v1.14.1",
+   "sha256": null,
+   "license_files": [
+    {
+     "file": "spdlog-1.14.1-LICENSE",
+     "sha256": "4ccecab18d1ff0b61174fe3d6c430541625d3ddb865b0d5887db296f883c76e7",
+     "path": "notices/libnvat-static/cxx/spdlog-1.14.1-LICENSE"
+    }
+   ],
+   "evidence": "libnvat and nvattest (CMake pin)",
+   "wheel_0_1_2_notices": "ATTRIBUTED (nvattest section of NATIVE_LIBRARY_NOTICES.txt)"
+  },
+  {
+   "component": "regorus (git tag regorus-v0.4.0)",
+   "ecosystem": "c++/source-pin",
+   "version": "0.4.0",
+   "version_status": "VERSION_PINNED_BY_SOURCE",
+   "license_declared": "MIT (LICENSE file; crates.io metadata says \"non-standard\")",
+   "source": "https://github.com/microsoft/regorus/tree/regorus-v0.4.0",
+   "sha256": null,
+   "license_files": [
+    {
+     "file": "regorus-v0.4.0-git-tag-LICENSE",
+     "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383",
+     "path": "notices/libnvat-static/cxx/regorus-v0.4.0-git-tag-LICENSE"
+    }
+   ],
+   "evidence": "libnvat (CMake FetchContent GIT_TAG regorus-v0.4.0); src/ identical to crates.io package 0.4.0",
+   "wheel_0_1_2_notices": "NO_ATTRIBUTION_FOUND"
+  }
+ ]
+}

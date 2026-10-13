@@ -1,0 +1,3 @@
+# Verbatim third-party licence texts keep their upstream whitespace; scoped to these directories only.
+notices/** -whitespace
+licenses/** -whitespace

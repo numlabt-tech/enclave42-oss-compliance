@@ -1,6 +1,6 @@
 {
  "wheel_sha256": "d7fb0e7cb7aa607f7a634d6c0824616f1953447161a49bad158c474153833555",
- "note": "Licences as determined from Debian copyright files and upstream sources; not legal advice. libcom_err object-level licence unconfirmed.",
+ "note": "Licences as determined from Debian copyright files, upstream sources and file headers; not legal advice. All 35 Ubuntu libraries are code-identical to the exact Ubuntu .deb (2026-10-13).",
  "libraries": [
   {
    "vendored_file": "libbrotlicommon-a91ead09.so.1.1.0",
@@ -9,7 +9,8 @@
    "version": "1.1.0-2build2",
    "source_package": "brotli",
    "library_license": "MIT",
-   "linkage": "dynamic (separate .so in enclave42.libs/, patchelf-renamed SONAME by auditwheel)"
+   "linkage": "dynamic (separate .so in enclave42.libs/, patchelf-renamed SONAME by auditwheel)",
+   "code_identical_to_ubuntu_deb": true
   },
   {
    "vendored_file": "libbrotlidec-64d8a501.so.1.1.0",
@@ -18,7 +19,8 @@
    "version": "1.1.0-2build2",
    "source_package": "brotli",
    "library_license": "MIT",
-   "linkage": "dynamic (separate .so in enclave42.libs/, patchelf-renamed SONAME by auditwheel)"
+   "linkage": "dynamic (separate .so in enclave42.libs/, patchelf-renamed SONAME by auditwheel)",
+   "code_identical_to_ubuntu_deb": true
   },
   {
    "vendored_file": "libcom_err-022943b3.so.2.1",
@@ -26,8 +28,9 @@
    "debian_package": "libcom-err2",
    "version": "1.47.0-2.4~exp1ubuntu4.1",
    "source_package": "e2fsprogs",
-   "library_license": "MIT-style (lib/et); package copyright also lists GPL/LGPL for other e2fsprogs libs",
-   "linkage": "dynamic (separate .so in enclave42.libs/, patchelf-renamed SONAME by auditwheel)"
+   "library_license": "MIT-style (e2fsprogs lib/et; com_right.c BSD-3-Clause KTH)",
+   "linkage": "dynamic (separate .so in enclave42.libs/, patchelf-renamed SONAME by auditwheel)",
+   "code_identical_to_ubuntu_deb": true
   },
   {
    "vendored_file": "libcrypto-6a66c3ba.so.3",
@@ -36,7 +39,8 @@
    "version": "3.0.13-0ubuntu3.15",
    "source_package": "openssl",
    "library_license": "Apache-2.0",
-   "linkage": "dynamic (separate .so in enclave42.libs/, patchelf-renamed SONAME by auditwheel)"
+   "linkage": "dynamic (separate .so in enclave42.libs/, patchelf-renamed SONAME by auditwheel)",
+   "code_identical_to_ubuntu_deb": true
   },
   {
    "vendored_file": "libcurl-eac8f2e9.so.4.8.0",
@@ -45,7 +49,8 @@
    "version": "8.5.0-2ubuntu10.13",
    "source_package": "curl",
    "library_license": "curl (MIT-style)",
-   "linkage": "dynamic (separate .so in enclave42.libs/, patchelf-renamed SONAME by auditwheel)"
+   "linkage": "dynamic (separate .so in enclave42.libs/, patchelf-renamed SONAME by auditwheel)",
+   "code_identical_to_ubuntu_deb": true
   },
   {
    "vendored_file": "libffi-00f593fe.so.8.1.4",
@@ -54,7 +59,8 @@
    "version": "3.4.6-1build1",
    "source_package": "libffi",
    "library_license": "MIT",
-   "linkage": "dynamic (separate .so in enclave42.libs/, patchelf-renamed SONAME by auditwheel)"
+   "linkage": "dynamic (separate .so in enclave42.libs/, patchelf-renamed SONAME by auditwheel)",
+   "code_identical_to_ubuntu_deb": true
   },
   {
    "vendored_file": "libgmp-0ccdfb6d.so.10.5.0",
@@ -63,7 +69,8 @@
    "version": "2:6.3.0+dfsg-2ubuntu6.1",
    "source_package": "gmp",
    "library_license": "LGPL-3.0-or-later OR GPL-2.0-or-later (choose LGPL-3+)",
-   "linkage": "dynamic (separate .so in enclave42.libs/, patchelf-renamed SONAME by auditwheel)"
+   "linkage": "dynamic (separate .so in enclave42.libs/, patchelf-renamed SONAME by auditwheel)",
+   "code_identical_to_ubuntu_deb": true
   },
   {
    "vendored_file": "libgnutls-ddbae299.so.30.37.1",
@@ -72,7 +79,8 @@
    "version": "3.8.3-1.1ubuntu3.6",
    "source_package": "gnutls28",
    "library_license": "LGPL-2.1-or-later",
-   "linkage": "dynamic (separate .so in enclave42.libs/, patchelf-renamed SONAME by auditwheel)"
+   "linkage": "dynamic (separate .so in enclave42.libs/, patchelf-renamed SONAME by auditwheel)",
+   "code_identical_to_ubuntu_deb": true
   },
   {
    "vendored_file": "libgssapi_krb5-6c1b8169.so.2.2",
@@ -81,7 +89,8 @@
    "version": "1.20.1-6ubuntu2.8",
    "source_package": "krb5",
    "library_license": "MIT-style (MIT Kerberos)",
-   "linkage": "dynamic (separate .so in enclave42.libs/, patchelf-renamed SONAME by auditwheel)"
+   "linkage": "dynamic (separate .so in enclave42.libs/, patchelf-renamed SONAME by auditwheel)",
+   "code_identical_to_ubuntu_deb": true
   },
   {
    "vendored_file": "libhogweed-c3c60613.so.6.8",
@@ -90,7 +99,8 @@
    "version": "3.9.1-2.2build1.1",
    "source_package": "nettle",
    "library_license": "LGPL-3.0-or-later OR GPL-2.0-or-later",
-   "linkage": "dynamic (separate .so in enclave42.libs/, patchelf-renamed SONAME by auditwheel)"
+   "linkage": "dynamic (separate .so in enclave42.libs/, patchelf-renamed SONAME by auditwheel)",
+   "code_identical_to_ubuntu_deb": true
   },
   {
    "vendored_file": "libicudata-ddbb3718.so.74.2",
@@ -99,7 +109,8 @@
    "version": "74.2-1ubuntu3.1",
    "source_package": "icu",
    "library_license": "Unicode License (ICU)",
-   "linkage": "dynamic (separate .so in enclave42.libs/, patchelf-renamed SONAME by auditwheel)"
+   "linkage": "dynamic (separate .so in enclave42.libs/, patchelf-renamed SONAME by auditwheel)",
+   "code_identical_to_ubuntu_deb": true
   },
   {
    "vendored_file": "libicuuc-7560aadd.so.74.2",
@@ -108,7 +119,8 @@
    "version": "74.2-1ubuntu3.1",
    "source_package": "icu",
    "library_license": "Unicode License (ICU)",
-   "linkage": "dynamic (separate .so in enclave42.libs/, patchelf-renamed SONAME by auditwheel)"
+   "linkage": "dynamic (separate .so in enclave42.libs/, patchelf-renamed SONAME by auditwheel)",
+   "code_identical_to_ubuntu_deb": true
   },
   {
    "vendored_file": "libidn2-6e632fd9.so.0.4.0",
@@ -117,7 +129,8 @@
    "version": "2.3.7-2build1.1",
    "source_package": "libidn2",
    "library_license": "LGPL-3.0-or-later OR GPL-2.0-or-later (library)",
-   "linkage": "dynamic (separate .so in enclave42.libs/, patchelf-renamed SONAME by auditwheel)"
+   "linkage": "dynamic (separate .so in enclave42.libs/, patchelf-renamed SONAME by auditwheel)",
+   "code_identical_to_ubuntu_deb": true
   },
   {
    "vendored_file": "libk5crypto-73bc9d72.so.3.1",
@@ -126,7 +139,8 @@
    "version": "1.20.1-6ubuntu2.8",
    "source_package": "krb5",
    "library_license": "MIT-style (MIT Kerberos)",
-   "linkage": "dynamic (separate .so in enclave42.libs/, patchelf-renamed SONAME by auditwheel)"
+   "linkage": "dynamic (separate .so in enclave42.libs/, patchelf-renamed SONAME by auditwheel)",
+   "code_identical_to_ubuntu_deb": true
   },
   {
    "vendored_file": "libkeyutils-f4821441.so.1.10",
@@ -135,7 +149,8 @@
    "version": "1.6.3-3build1",
    "source_package": "keyutils",
    "library_license": "LGPL-2.1-or-later (Debian tag: LGPL-2+)",
-   "linkage": "dynamic (separate .so in enclave42.libs/, patchelf-renamed SONAME by auditwheel)"
+   "linkage": "dynamic (separate .so in enclave42.libs/, patchelf-renamed SONAME by auditwheel)",
+   "code_identical_to_ubuntu_deb": true
   },
   {
    "vendored_file": "libkrb5-9615a284.so.3.3",
@@ -144,7 +159,8 @@
    "version": "1.20.1-6ubuntu2.8",
    "source_package": "krb5",
    "library_license": "MIT-style (MIT Kerberos)",
-   "linkage": "dynamic (separate .so in enclave42.libs/, patchelf-renamed SONAME by auditwheel)"
+   "linkage": "dynamic (separate .so in enclave42.libs/, patchelf-renamed SONAME by auditwheel)",
+   "code_identical_to_ubuntu_deb": true
   },
   {
    "vendored_file": "libkrb5support-0aa43578.so.0.1",
@@ -153,7 +169,8 @@
    "version": "1.20.1-6ubuntu2.8",
    "source_package": "krb5",
    "library_license": "MIT-style (MIT Kerberos)",
-   "linkage": "dynamic (separate .so in enclave42.libs/, patchelf-renamed SONAME by auditwheel)"
+   "linkage": "dynamic (separate .so in enclave42.libs/, patchelf-renamed SONAME by auditwheel)",
+   "code_identical_to_ubuntu_deb": true
   },
   {
    "vendored_file": "liblber-ddf14275.so.2.0.200",
@@ -162,7 +179,8 @@
    "version": "2.6.10+dfsg-0ubuntu0.24.04.1",
    "source_package": "openldap",
    "library_license": "OpenLDAP Public License 2.8",
-   "linkage": "dynamic (separate .so in enclave42.libs/, patchelf-renamed SONAME by auditwheel)"
+   "linkage": "dynamic (separate .so in enclave42.libs/, patchelf-renamed SONAME by auditwheel)",
+   "code_identical_to_ubuntu_deb": true
   },
   {
    "vendored_file": "libldap-a9829b99.so.2.0.200",
@@ -171,7 +189,8 @@
    "version": "2.6.10+dfsg-0ubuntu0.24.04.1",
    "source_package": "openldap",
    "library_license": "OpenLDAP Public License 2.8",
-   "linkage": "dynamic (separate .so in enclave42.libs/, patchelf-renamed SONAME by auditwheel)"
+   "linkage": "dynamic (separate .so in enclave42.libs/, patchelf-renamed SONAME by auditwheel)",
+   "code_identical_to_ubuntu_deb": true
   },
   {
    "vendored_file": "liblzma-696e868d.so.5.4.5",
@@ -180,7 +199,8 @@
    "version": "5.6.1+really5.4.5-1ubuntu0.3",
    "source_package": "xz-utils",
    "library_license": "0BSD / public domain (liblzma 5.4.5)",
-   "linkage": "dynamic (separate .so in enclave42.libs/, patchelf-renamed SONAME by auditwheel)"
+   "linkage": "dynamic (separate .so in enclave42.libs/, patchelf-renamed SONAME by auditwheel)",
+   "code_identical_to_ubuntu_deb": true
   },
   {
    "vendored_file": "libnettle-a245ed91.so.8.8",
@@ -189,7 +209,8 @@
    "version": "3.9.1-2.2build1.1",
    "source_package": "nettle",
    "library_license": "LGPL-3.0-or-later OR GPL-2.0-or-later",
-   "linkage": "dynamic (separate .so in enclave42.libs/, patchelf-renamed SONAME by auditwheel)"
+   "linkage": "dynamic (separate .so in enclave42.libs/, patchelf-renamed SONAME by auditwheel)",
+   "code_identical_to_ubuntu_deb": true
   },
   {
    "vendored_file": "libnghttp2-46764ab5.so.14.26.0",
@@ -198,7 +219,8 @@
    "version": "1.59.0-1ubuntu0.4",
    "source_package": "nghttp2",
    "library_license": "MIT",
-   "linkage": "dynamic (separate .so in enclave42.libs/, patchelf-renamed SONAME by auditwheel)"
+   "linkage": "dynamic (separate .so in enclave42.libs/, patchelf-renamed SONAME by auditwheel)",
+   "code_identical_to_ubuntu_deb": true
   },
   {
    "vendored_file": "libnvat-14f5ec4a.so.1.2.2",
@@ -216,7 +238,8 @@
    "version": "0.25.3-4ubuntu2.2",
    "source_package": "p11-kit",
    "library_license": "BSD-3-Clause",
-   "linkage": "dynamic (separate .so in enclave42.libs/, patchelf-renamed SONAME by auditwheel)"
+   "linkage": "dynamic (separate .so in enclave42.libs/, patchelf-renamed SONAME by auditwheel)",
+   "code_identical_to_ubuntu_deb": true
   },
   {
    "vendored_file": "libpsl-ae6c5a9a.so.5.3.4",
@@ -225,7 +248,8 @@
    "version": "0.21.2-1.1build1",
    "source_package": "libpsl",
    "library_license": "MIT",
-   "linkage": "dynamic (separate .so in enclave42.libs/, patchelf-renamed SONAME by auditwheel)"
+   "linkage": "dynamic (separate .so in enclave42.libs/, patchelf-renamed SONAME by auditwheel)",
+   "code_identical_to_ubuntu_deb": true
   },
   {
    "vendored_file": "librtmp-15a2a75e.so.1",
@@ -234,7 +258,8 @@
    "version": "2.4+20151223.gitfa8646d.1-2build7",
    "source_package": "rtmpdump",
    "library_license": "LGPL-2.1",
-   "linkage": "dynamic (separate .so in enclave42.libs/, patchelf-renamed SONAME by auditwheel)"
+   "linkage": "dynamic (separate .so in enclave42.libs/, patchelf-renamed SONAME by auditwheel)",
+   "code_identical_to_ubuntu_deb": true
   },
   {
    "vendored_file": "libsasl2-a0f410ad.so.2.0.25",
@@ -243,7 +268,8 @@
    "version": "2.1.28+dfsg1-5ubuntu3.1",
    "source_package": "cyrus-sasl2",
    "library_license": "BSD-style (CMU)",
-   "linkage": "dynamic (separate .so in enclave42.libs/, patchelf-renamed SONAME by auditwheel)"
+   "linkage": "dynamic (separate .so in enclave42.libs/, patchelf-renamed SONAME by auditwheel)",
+   "code_identical_to_ubuntu_deb": true
   },
   {
    "vendored_file": "libssh-b82bd54e.so.4.9.6",
@@ -252,7 +278,8 @@
    "version": "0.10.6-2ubuntu0.5",
    "source_package": "libssh",
    "library_license": "LGPL-2.1-or-later (Debian: LGPL-2.1+~OpenSSL)",
-   "linkage": "dynamic (separate .so in enclave42.libs/, patchelf-renamed SONAME by auditwheel)"
+   "linkage": "dynamic (separate .so in enclave42.libs/, patchelf-renamed SONAME by auditwheel)",
+   "code_identical_to_ubuntu_deb": true
   },
   {
    "vendored_file": "libssl-8e49cebd.so.3",
@@ -261,7 +288,8 @@
    "version": "3.0.13-0ubuntu3.15",
    "source_package": "openssl",
    "library_license": "Apache-2.0",
-   "linkage": "dynamic (separate .so in enclave42.libs/, patchelf-renamed SONAME by auditwheel)"
+   "linkage": "dynamic (separate .so in enclave42.libs/, patchelf-renamed SONAME by auditwheel)",
+   "code_identical_to_ubuntu_deb": true
   },
   {
    "vendored_file": "libtasn1-59994414.so.6.6.3",
@@ -270,7 +298,8 @@
    "version": "4.19.0-3ubuntu0.24.04.2",
    "source_package": "libtasn1-6",
    "library_license": "LGPL-2.1-or-later",
-   "linkage": "dynamic (separate .so in enclave42.libs/, patchelf-renamed SONAME by auditwheel)"
+   "linkage": "dynamic (separate .so in enclave42.libs/, patchelf-renamed SONAME by auditwheel)",
+   "code_identical_to_ubuntu_deb": true
   },
   {
    "vendored_file": "libunistring-7bcf825c.so.5.0.0",
@@ -279,7 +308,8 @@
    "version": "1.1-2build1.1",
    "source_package": "libunistring",
    "library_license": "LGPL-3.0-or-later OR GPL-2.0-or-later",
-   "linkage": "dynamic (separate .so in enclave42.libs/, patchelf-renamed SONAME by auditwheel)"
+   "linkage": "dynamic (separate .so in enclave42.libs/, patchelf-renamed SONAME by auditwheel)",
+   "code_identical_to_ubuntu_deb": true
   },
   {
    "vendored_file": "libxml2-8b6f68c2.so.2.9.14",
@@ -288,7 +318,8 @@
    "version": "2.9.14+dfsg-1.3ubuntu3.8",
    "source_package": "libxml2",
    "library_license": "MIT",
-   "linkage": "dynamic (separate .so in enclave42.libs/, patchelf-renamed SONAME by auditwheel)"
+   "linkage": "dynamic (separate .so in enclave42.libs/, patchelf-renamed SONAME by auditwheel)",
+   "code_identical_to_ubuntu_deb": true
   },
   {
    "vendored_file": "libxmlsec1-0a0920b8.so.1.2.39",
@@ -297,7 +328,8 @@
    "version": "1.2.39-5build2",
    "source_package": "xmlsec1",
    "library_license": "MIT",
-   "linkage": "dynamic (separate .so in enclave42.libs/, patchelf-renamed SONAME by auditwheel)"
+   "linkage": "dynamic (separate .so in enclave42.libs/, patchelf-renamed SONAME by auditwheel)",
+   "code_identical_to_ubuntu_deb": true
   },
   {
    "vendored_file": "libxmlsec1-openssl-0c5b28d6.so.1.2.39",
@@ -306,7 +338,8 @@
    "version": "1.2.39-5build2",
    "source_package": "xmlsec1",
    "library_license": "MIT",
-   "linkage": "dynamic (separate .so in enclave42.libs/, patchelf-renamed SONAME by auditwheel)"
+   "linkage": "dynamic (separate .so in enclave42.libs/, patchelf-renamed SONAME by auditwheel)",
+   "code_identical_to_ubuntu_deb": true
   },
   {
    "vendored_file": "libxslt-a4215f84.so.1.1.39",
@@ -315,7 +348,8 @@
    "version": "1.1.39-0exp1ubuntu0.24.04.3",
    "source_package": "libxslt",
    "library_license": "MIT",
-   "linkage": "dynamic (separate .so in enclave42.libs/, patchelf-renamed SONAME by auditwheel)"
+   "linkage": "dynamic (separate .so in enclave42.libs/, patchelf-renamed SONAME by auditwheel)",
+   "code_identical_to_ubuntu_deb": true
   },
   {
    "vendored_file": "libzstd-0a2128bc.so.1.5.5",
@@ -324,7 +358,8 @@
    "version": "1.5.5+dfsg2-2build1.1",
    "source_package": "libzstd",
    "library_license": "BSD-3-Clause (choose BSD; dual GPL-2.0)",
-   "linkage": "dynamic (separate .so in enclave42.libs/, patchelf-renamed SONAME by auditwheel)"
+   "linkage": "dynamic (separate .so in enclave42.libs/, patchelf-renamed SONAME by auditwheel)",
+   "code_identical_to_ubuntu_deb": true
   }
  ]
 }

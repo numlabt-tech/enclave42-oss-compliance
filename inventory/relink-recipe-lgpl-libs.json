@@ -1,0 +1,175 @@
+[
+ {
+  "vendored_file": "libgmp-0ccdfb6d.so.10.5.0",
+  "ubuntu_deb": "libgmp10_6.3.0+dfsg-2ubuntu6.1_amd64.deb",
+  "deb_sha256": "285f8a505dfa8e1b33f357a9d8d3477ad35bf18c0b34771a6df4c25923f3ae0d",
+  "deb_member": "usr/lib/x86_64-linux-gnu/libgmp.so.10.5.0",
+  "patchelf_args": [
+   "--set-soname",
+   "libgmp-0ccdfb6d.so.10.5.0"
+  ],
+  "reproduced_bit_exact": true
+ },
+ {
+  "vendored_file": "libnettle-a245ed91.so.8.8",
+  "ubuntu_deb": "libnettle8t64_3.9.1-2.2build1.1_amd64.deb",
+  "deb_sha256": "6d97fbc1972633083f08f51ccab433606c97bbceb897c631c66495117ca3406f",
+  "deb_member": "usr/lib/x86_64-linux-gnu/libnettle.so.8.8",
+  "patchelf_args": [
+   "--set-soname",
+   "libnettle-a245ed91.so.8.8"
+  ],
+  "reproduced_bit_exact": true
+ },
+ {
+  "vendored_file": "libhogweed-c3c60613.so.6.8",
+  "ubuntu_deb": "libhogweed6t64_3.9.1-2.2build1.1_amd64.deb",
+  "deb_sha256": "a9b5f7e9d49ba9060e1c933567046fbc6feab6096799cbf550b7214dc9b0f49b",
+  "deb_member": "usr/lib/x86_64-linux-gnu/libhogweed.so.6.8",
+  "patchelf_args": [
+   "--set-soname",
+   "libhogweed-c3c60613.so.6.8",
+   "--replace-needed",
+   "libnettle.so.8",
+   "libnettle-a245ed91.so.8.8",
+   "--replace-needed",
+   "libgmp.so.10",
+   "libgmp-0ccdfb6d.so.10.5.0",
+   "--force-rpath",
+   "--set-rpath",
+   "$ORIGIN"
+  ],
+  "reproduced_bit_exact": true
+ },
+ {
+  "vendored_file": "libgnutls-ddbae299.so.30.37.1",
+  "ubuntu_deb": "libgnutls30t64_3.8.3-1.1ubuntu3.6_amd64.deb",
+  "deb_sha256": "b8944756260c5ea6b7fac019745f931f905aa7a4df0763676b1b25c911b692e2",
+  "deb_member": "usr/lib/x86_64-linux-gnu/libgnutls.so.30.37.1",
+  "patchelf_args": [
+   "--set-soname",
+   "libgnutls-ddbae299.so.30.37.1",
+   "--replace-needed",
+   "libp11-kit.so.0",
+   "libp11-kit-a59efd47.so.0.3.1",
+   "--replace-needed",
+   "libidn2.so.0",
+   "libidn2-6e632fd9.so.0.4.0",
+   "--replace-needed",
+   "libunistring.so.5",
+   "libunistring-7bcf825c.so.5.0.0",
+   "--replace-needed",
+   "libtasn1.so.6",
+   "libtasn1-59994414.so.6.6.3",
+   "--replace-needed",
+   "libnettle.so.8",
+   "libnettle-a245ed91.so.8.8",
+   "--replace-needed",
+   "libhogweed.so.6",
+   "libhogweed-c3c60613.so.6.8",
+   "--replace-needed",
+   "libgmp.so.10",
+   "libgmp-0ccdfb6d.so.10.5.0",
+   "--force-rpath",
+   "--set-rpath",
+   "$ORIGIN"
+  ],
+  "reproduced_bit_exact": true
+ },
+ {
+  "vendored_file": "libidn2-6e632fd9.so.0.4.0",
+  "ubuntu_deb": "libidn2-0_2.3.7-2build1.1_amd64.deb",
+  "deb_sha256": "46bfd10df095a23b65f58115de47a547c9a2d14627749bd0423ae78c14be77d3",
+  "deb_member": "usr/lib/x86_64-linux-gnu/libidn2.so.0.4.0",
+  "patchelf_args": [
+   "--set-soname",
+   "libidn2-6e632fd9.so.0.4.0",
+   "--replace-needed",
+   "libunistring.so.5",
+   "libunistring-7bcf825c.so.5.0.0",
+   "--force-rpath",
+   "--set-rpath",
+   "$ORIGIN"
+  ],
+  "reproduced_bit_exact": true
+ },
+ {
+  "vendored_file": "libunistring-7bcf825c.so.5.0.0",
+  "ubuntu_deb": "libunistring5_1.1-2build1.1_amd64.deb",
+  "deb_sha256": "203d7657b5f54633fba1a9c9b784d556ef83c9f6787b3185ba55a88e07b865a3",
+  "deb_member": "usr/lib/x86_64-linux-gnu/libunistring.so.5.0.0",
+  "patchelf_args": [
+   "--set-soname",
+   "libunistring-7bcf825c.so.5.0.0"
+  ],
+  "reproduced_bit_exact": true
+ },
+ {
+  "vendored_file": "libtasn1-59994414.so.6.6.3",
+  "ubuntu_deb": "libtasn1-6_4.19.0-3ubuntu0.24.04.2_amd64.deb",
+  "deb_sha256": "f82c9ad142f952ea523bda5bfca7bb0802af3a50b8c0f0dd9ec18cdfa104bde7",
+  "deb_member": "usr/lib/x86_64-linux-gnu/libtasn1.so.6.6.3",
+  "patchelf_args": [
+   "--set-soname",
+   "libtasn1-59994414.so.6.6.3"
+  ],
+  "reproduced_bit_exact": true
+ },
+ {
+  "vendored_file": "libkeyutils-f4821441.so.1.10",
+  "ubuntu_deb": "libkeyutils1_1.6.3-3build1_amd64.deb",
+  "deb_sha256": "0679f198b0128179e46cdf956fb2022c23c758664c00bc8efa0382d509683a8a",
+  "deb_member": "usr/lib/x86_64-linux-gnu/libkeyutils.so.1.10",
+  "patchelf_args": [
+   "--set-soname",
+   "libkeyutils-f4821441.so.1.10"
+  ],
+  "reproduced_bit_exact": true
+ },
+ {
+  "vendored_file": "librtmp-15a2a75e.so.1",
+  "ubuntu_deb": "librtmp1_2.4+20151223.gitfa8646d.1-2build7_amd64.deb",
+  "deb_sha256": "967a39dbc14236d1580ede01d80fd78444668572e716734e1ac66c175052594e",
+  "deb_member": "usr/lib/x86_64-linux-gnu/librtmp.so.1",
+  "patchelf_args": [
+   "--set-soname",
+   "librtmp-15a2a75e.so.1",
+   "--replace-needed",
+   "libgnutls.so.30",
+   "libgnutls-ddbae299.so.30.37.1",
+   "--replace-needed",
+   "libhogweed.so.6",
+   "libhogweed-c3c60613.so.6.8",
+   "--replace-needed",
+   "libnettle.so.8",
+   "libnettle-a245ed91.so.8.8",
+   "--replace-needed",
+   "libgmp.so.10",
+   "libgmp-0ccdfb6d.so.10.5.0",
+   "--force-rpath",
+   "--set-rpath",
+   "$ORIGIN"
+  ],
+  "reproduced_bit_exact": true
+ },
+ {
+  "vendored_file": "libssh-b82bd54e.so.4.9.6",
+  "ubuntu_deb": "libssh-4_0.10.6-2ubuntu0.5_amd64.deb",
+  "deb_sha256": "2448ce5f99e49721d12f8b227f2472dd08ed7a78184dd819fd03a42693024a16",
+  "deb_member": "usr/lib/x86_64-linux-gnu/libssh.so.4.9.6",
+  "patchelf_args": [
+   "--set-soname",
+   "libssh-b82bd54e.so.4.9.6",
+   "--replace-needed",
+   "libcrypto.so.3",
+   "libcrypto-6a66c3ba.so.3",
+   "--replace-needed",
+   "libgssapi_krb5.so.2",
+   "libgssapi_krb5-6c1b8169.so.2.2",
+   "--force-rpath",
+   "--set-rpath",
+   "$ORIGIN"
+  ],
+  "reproduced_bit_exact": true
+ }
+]

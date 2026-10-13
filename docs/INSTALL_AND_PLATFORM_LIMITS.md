@@ -4,7 +4,7 @@
 
 ```
 python3.12 -m venv .venv && . .venv/bin/activate
-pip install "enclave42>=0.1.2"   # once 0.1.2 is available on PyPI (see the repository README for status)
+pip install "enclave42>=0.1.2"
 python -c "import enclave42, importlib.metadata as m; print(m.version('enclave42'))"   # 0.1.2
 ```
 

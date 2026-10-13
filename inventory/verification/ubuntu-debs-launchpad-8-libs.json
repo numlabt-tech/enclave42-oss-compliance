@@ -1,0 +1,66 @@
+[
+ {
+  "vendored": "libcrypto-6a66c3ba.so.3",
+  "deb": "libssl3t64_3.0.13-0ubuntu3.15_amd64.deb",
+  "deb_url": "https://launchpad.net/ubuntu/+archive/primary/+files/libssl3t64_3.0.13-0ubuntu3.15_amd64.deb",
+  "lp_status": "Superseded",
+  "deb_sha256": "3d0955bc049bbcca0f4c3e78a3a8b994593d96db7d84f4320217224433844534",
+  "verdict": "CODE_IDENTICAL"
+ },
+ {
+  "vendored": "libcurl-eac8f2e9.so.4.8.0",
+  "deb": "libcurl4t64_8.5.0-2ubuntu10.13_amd64.deb",
+  "deb_url": "https://launchpad.net/ubuntu/+archive/primary/+files/libcurl4t64_8.5.0-2ubuntu10.13_amd64.deb",
+  "lp_status": "Superseded",
+  "deb_sha256": "92347d034fdae018d67cab3cbe976255ec0ba936f57923241974bf3787addf04",
+  "verdict": "CODE_IDENTICAL"
+ },
+ {
+  "vendored": "libgssapi_krb5-6c1b8169.so.2.2",
+  "deb": "libgssapi-krb5-2_1.20.1-6ubuntu2.8_amd64.deb",
+  "deb_url": "https://launchpad.net/ubuntu/+archive/primary/+files/libgssapi-krb5-2_1.20.1-6ubuntu2.8_amd64.deb",
+  "lp_status": "Superseded",
+  "deb_sha256": "6cd99ec16ae12eb465712f950e43eaf03a8d2a6ab24c00178df56470d5343b66",
+  "verdict": "CODE_IDENTICAL"
+ },
+ {
+  "vendored": "libk5crypto-73bc9d72.so.3.1",
+  "deb": "libk5crypto3_1.20.1-6ubuntu2.8_amd64.deb",
+  "deb_url": "https://launchpad.net/ubuntu/+archive/primary/+files/libk5crypto3_1.20.1-6ubuntu2.8_amd64.deb",
+  "lp_status": "Superseded",
+  "deb_sha256": "48f689737191cfafaf3c158e9b07d6448f9e6217ad7abbaacc4f96dc95403fa2",
+  "verdict": "CODE_IDENTICAL"
+ },
+ {
+  "vendored": "libkrb5-9615a284.so.3.3",
+  "deb": "libkrb5-3_1.20.1-6ubuntu2.8_amd64.deb",
+  "deb_url": "https://launchpad.net/ubuntu/+archive/primary/+files/libkrb5-3_1.20.1-6ubuntu2.8_amd64.deb",
+  "lp_status": "Superseded",
+  "deb_sha256": "63ab8110daea359f55d8135d395de198257acb1f948500c561745addddfece4c",
+  "verdict": "CODE_IDENTICAL"
+ },
+ {
+  "vendored": "libkrb5support-0aa43578.so.0.1",
+  "deb": "libkrb5support0_1.20.1-6ubuntu2.8_amd64.deb",
+  "deb_url": "https://launchpad.net/ubuntu/+archive/primary/+files/libkrb5support0_1.20.1-6ubuntu2.8_amd64.deb",
+  "lp_status": "Superseded",
+  "deb_sha256": "cee1efc93d4ce4a97db756269824b5a2b90d2cb993cd76102432db60890819fc",
+  "verdict": "CODE_IDENTICAL"
+ },
+ {
+  "vendored": "libssl-8e49cebd.so.3",
+  "deb": "libssl3t64_3.0.13-0ubuntu3.15_amd64.deb",
+  "deb_url": "https://launchpad.net/ubuntu/+archive/primary/+files/libssl3t64_3.0.13-0ubuntu3.15_amd64.deb",
+  "lp_status": "Superseded",
+  "deb_sha256": "3d0955bc049bbcca0f4c3e78a3a8b994593d96db7d84f4320217224433844534",
+  "verdict": "CODE_IDENTICAL"
+ },
+ {
+  "vendored": "libxml2-8b6f68c2.so.2.9.14",
+  "deb": "libxml2_2.9.14%2Bdfsg-1.3ubuntu3.8_amd64.deb",
+  "deb_url": "https://launchpad.net/ubuntu/+archive/primary/+files/libxml2_2.9.14%2Bdfsg-1.3ubuntu3.8_amd64.deb",
+  "lp_status": "Superseded",
+  "deb_sha256": "bfd07c01d6e5ab3e327f3ca5819409b1914bbfb3f1a016d53e4dabd5f96143bb",
+  "verdict": "CODE_IDENTICAL"
+ }
+]
